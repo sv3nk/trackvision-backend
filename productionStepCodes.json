@@ -1,0 +1,182 @@
+[
+    {
+        "code": "FILM_EXTRUSION",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T10:58:03.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Film Extrusion",
+        "process_type": "Component producing"
+    },
+    {
+        "code": "INJECTION_MOULDING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T10:58:25.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Injection Moulding",
+        "process_type": "Component producing"
+    },
+    {
+        "code": "BLOW_MOULDING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T10:58:40.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Blown Moulding",
+        "process_type": "Component producing"
+    },
+    {
+        "code": "INLINE_THERMOFORMING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T10:59:28.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Inline Thermoforming",
+        "process_type": "Component producing"
+    },
+    {
+        "code": "PRINTING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:00:02.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Printing",
+        "process_type": "Component processing"
+    },
+    {
+        "code": "COATING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:00:25.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Coating",
+        "process_type": "Component processing"
+    },
+    {
+        "code": "METALLISING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:00:51.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Metallising",
+        "process_type": "Component processing"
+    },
+    {
+        "code": "LAMINATING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:01:05.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Laminating",
+        "process_type": "Component processing"
+    },
+    {
+        "code": "SLITTING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:01:27.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Slitting",
+        "process_type": "Component reshaping"
+    },
+    {
+        "code": "PACKAGING_PRODUCTION",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:02:03.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Packaging Production",
+        "process_type": "Packaging producing"
+    },
+    {
+        "code": "RAW_MATERIAL_PRODUCTIONq",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:02:43.000Z",
+        "user_updated": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_updated": "2025-05-27T08:43:16.000Z",
+        "description": "Raw Material Production",
+        "process_type": "Plastic raw material producing"
+    },
+    {
+        "code": "REGRANULATION",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:03:02.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Regranulation",
+        "process_type": "Plastic raw material producing"
+    },
+    {
+        "code": "MIXING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:03:29.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Mixing",
+        "process_type": "Plastic raw material producing"
+    },
+    {
+        "code": "COMPOUNDING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:03:46.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Compounding",
+        "process_type": "Plastic raw material producing"
+    },
+    {
+        "code": "GRINDING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:04:35.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Grinding",
+        "process_type": "Plastic raw material producing"
+    },
+    {
+        "code": "DECONTAMINATING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:05:06.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Decontaminating",
+        "process_type": "Plastic raw material producing"
+    },
+    {
+        "code": "PRODUCT_GENERATION",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:05:50.000Z",
+        "user_updated": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_updated": "2025-05-12T08:39:33.000Z",
+        "description": "Product Generation",
+        "process_type": "Component producing"
+    },
+    {
+        "code": "COLLECTING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:06:13.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Collecting",
+        "process_type": "Waste processing"
+    },
+    {
+        "code": "SORTING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:06:25.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Sorting",
+        "process_type": "Waste processing"
+    },
+    {
+        "code": "STRETCHING",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-08T11:08:52.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "description": "Stretching",
+        "process_type": "Component reshaping"
+    }
+]

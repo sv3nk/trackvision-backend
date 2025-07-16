@@ -1,0 +1,823 @@
+[
+    {
+        "level": 1,
+        "parent_id": "/01/04064074001970/10/mBsLXFfTJe",
+        "child_id": "/01/04064074001970/10/mBsLXFfTJe",
+        "gtin": "04064074001970",
+        "lot": "mBsLXFfTJe",
+        "type": "Packaging - Bottle",
+        "product_name": "FL Balea Bath Wild Flower",
+        "detailed_name": "Batch of complete packaging",
+        "brand_id": "b4284dbd-0e4c-4af9-b587-2e72232625d7",
+        "product_brand": "Balea",
+        "sub_brand_name": null,
+        "primary_image": "24251250-7da5-400c-afd2-e1465fcc8f84",
+        "quantity_value": "5000.00",
+        "quantity_uom": null,
+        "quantity_uom_desc": null,
+        "Production Date": "2023-04-24T14:48:41.000Z",
+        "GLN": "4064074001921",
+        "GLN_Name": "Mibelle Group",
+        "readPoint": "/414/4064074001921/254/1",
+        "readPointName": "Production Line at Mibelle",
+        "packaging_type": "BO",
+        "packaging_type_name": "Bottle",
+        "packaging_type_description": "A container having a round neck of relatively smaller diameter than the body, as compared with a jar, and an opening capable of holding a closure for retention of the contents.",
+        "packaging_level": "PRIMARY",
+        "packaging_level_desc": "Primary packaging",
+        "packaging_level_long_desc": "The individual sale unit container that directly contains the product and is handed to the end consumer. For example - a plastic bottle or aluminum can holding a beverage.",
+        "content_of_packaging": "OTHER_NONHAZARDOUS",
+        "content_of_packaging_description": "Non-hazardous product",
+        "content_of_packaging_long_description": "Content that does not belong to any other category and which is not hazardous",
+        "unit_length": "71.00",
+        "unit_length_uom": "MMT",
+        "unit_length_uom_desc": "mm",
+        "unit_width": "41.00",
+        "unit_width_uom": "MMT",
+        "unit_width_uom_desc": "mm",
+        "unit_height": "186.00",
+        "unit_height_uom": "MMT",
+        "unit_height_uom_desc": "mm",
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": "300.00",
+        "filling_volume_uom": "MLT",
+        "filling_volume_uom_desc": "ml",
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": null,
+        "product_type_desc": null,
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "1.00000",
+        "event_id": "ni:///sha-256;d1c270fac7c2166b5c1ae49958f372e060997097884d1446ed727f7968287553?ver=CBV2.0",
+        "event_body": {
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001921"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;d1c270fac7c2166b5c1ae49958f372e060997097884d1446ed727f7968287553?ver=CBV2.0",
+            "eventTime": "2023-04-24T14:48:41+01:00",
+            "eventTimeZoneOffset": "+02:00",
+            "example:ComponentDetails": [
+                {
+                    "example:componentTypeCode": "BOTTLE",
+                    "example:inputQuantity": "https://rcycledemo.tvai.me/01/04064074001765/10/AYqZKLPz701004",
+                    "example:separabilityCode": "NOT_REMOVABLE",
+                    "example:surfaceCoverage": {
+                        "example:unitCode": "P1",
+                        "example:value": 0
+                    },
+                    "example:unitWeight": {
+                        "example:unitCode": "GRM",
+                        "example:value": 20
+                    }
+                },
+                {
+                    "example:componentTypeCode": "CAP",
+                    "example:inputQuantity": "https://rcycledemo.tvai.me/01/04064074001918/10/qvMNRYEiA",
+                    "example:separabilityCode": "NOT_REMOVABLE",
+                    "example:surfaceCoverage": {
+                        "example:unitCode": "P1",
+                        "example:value": 12
+                    },
+                    "example:unitWeight": {
+                        "example:unitCode": "GRM",
+                        "example:value": 7
+                    }
+                },
+                {
+                    "example:componentTypeCode": "LABEL",
+                    "example:inputQuantity": "https://rcycledemo.tvai.me/01/04064074001826/10/erexJYXMBw",
+                    "example:separabilityCode": "WIND_SIFTING",
+                    "example:surfaceCoverage": {
+                        "example:unitCode": "P1",
+                        "example:value": 88
+                    },
+                    "example:unitWeight": {
+                        "example:unitCode": "GRM",
+                        "example:value": 1.6
+                    }
+                }
+            ],
+            "ilmd": {
+                "example:contentOfPackaging": "OTHER_NONHAZARDOUS",
+                "gs1:packagingType": "BO",
+                "rcycle:detailedName": "Batch of complete packaging",
+                "rcycle:fillingVolume": {
+                    "rcycle:unitCode": "MLT",
+                    "rcycle:value": 300
+                },
+                "rcycle:objectForm": "3D",
+                "rcycle:packagingLevel": "PRIMARY",
+                "rcycle:productionStep": "PACKAGING_PRODUCTION",
+                "rcycle:unitHeight": {
+                    "rcycle:unitCode": "MMT",
+                    "rcycle:value": 186
+                },
+                "rcycle:unitLength": {
+                    "rcycle:unitCode": "MMT",
+                    "rcycle:value": 71
+                },
+                "rcycle:unitWidth": {
+                    "rcycle:unitCode": "MMT",
+                    "rcycle:value": 41
+                }
+            },
+            "inputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/04064074001765/10/AYqZKLPz701004",
+                    "quantity": 5000
+                },
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/04064074001918/10/qvMNRYEiA",
+                    "quantity": 5000
+                },
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/04064074001826/10/erexJYXMBw",
+                    "quantity": 5000
+                }
+            ],
+            "outputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/04064074001970/10/mBsLXFfTJe",
+                    "quantity": 5000
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001921/254/1"
+            },
+            "type": "TransformationEvent"
+        }
+    },
+    {
+        "level": 2,
+        "parent_id": "/01/04064074001970/10/mBsLXFfTJe",
+        "child_id": "/01/04064074001765/10/AYqZKLPz701004",
+        "gtin": "04064074001765",
+        "lot": "AYqZKLPz701004",
+        "type": "Bottle",
+        "product_name": "Bottle",
+        "detailed_name": "FL Balea Bath 300 ml BIFFA rHDPE",
+        "brand_id": null,
+        "product_brand": null,
+        "sub_brand_name": null,
+        "primary_image": null,
+        "quantity_value": "25000.00",
+        "quantity_uom": null,
+        "quantity_uom_desc": null,
+        "Production Date": "2022-06-27T10:46:01.000Z",
+        "GLN": "4064074001755",
+        "GLN_Name": "Sauer GmbH & Co.KG, Germany",
+        "readPoint": "/414/4064074001755/254/1",
+        "readPointName": "Production Line at Sauer GmbH & Co.KG",
+        "packaging_type": null,
+        "packaging_type_name": null,
+        "packaging_type_description": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_description": null,
+        "content_of_packaging_long_description": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": "20.00",
+        "unit_weight_uom": "GRM",
+        "unit_weight_uom_desc": "g",
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": "BOTTLE",
+        "product_type_desc": "Bottle",
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": "PE1",
+        "application_range_desc": "PE - 0.2-5.0 g/10min at 2.16 kg/190 °C",
+        "application_range_long_desc": "PE for film extrusion and blow moulding (film, bottles, drums). Including blow moulding grades: HDPE 5-25 g/10min at 21.6 kg/190 °C and HMWPE 2-5 g/10min @21.6 kg/190 °C",
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "0.69930",
+        "event_id": "ni:///sha-256;e2d002617517262de8643b219c512f856d301d13224b4093260b9ab2adcde55d?ver=CBV2.0",
+        "event_body": {
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001755"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;e2d002617517262de8643b219c512f856d301d13224b4093260b9ab2adcde55d?ver=CBV2.0",
+            "eventTime": "2022-06-27T10:46:01+02:00",
+            "eventTimeZoneOffset": "+02:00",
+            "example:AdditiveDetails": [
+                {
+                    "example:additiveCodeValue": "MB_CB",
+                    "example:additiveLevelOfContainment": "FREE_FROM"
+                }
+            ],
+            "example:ColourOfBasicMaterial": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS",
+                    "example:colourCodeValue": "WHITE"
+                }
+            ],
+            "example:InputMaterialOrigin": [
+                {
+                    "example:typeCode": "PCR_M",
+                    "example:unitCode": "P1",
+                    "example:value": 0
+                }
+            ],
+            "example:InputQuantityShares": [
+                {
+                    "example:quantity": "https://rcycledemo.tvai.me/01/94064074000549/10/AYLqJKNb701004",
+                    "example:unitCode": "P1",
+                    "example:value": 97
+                }
+            ],
+            "example:PackagingIngredientDetails": [
+                {
+                    "example:typeCode": "PE-HD",
+                    "example:unitCode": "P1",
+                    "example:value": 1.2
+                },
+                {
+                    "example:typeCode": "TIO2",
+                    "example:unitCode": "P1",
+                    "example:value": 1.8
+                }
+            ],
+            "example:biodegradability": false,
+            "example:foodApproval": true,
+            "ilmd": {
+                "example:applicationRange": "PE1",
+                "example:density": {
+                    "example:unitCode": "23",
+                    "example:value": 0.9577
+                },
+                "example:unitWeight": {
+                    "example:unitCode": "GRM",
+                    "example:value": 20
+                },
+                "rcycle:detailedName": "FL Balea Bath 300 ml BIFFA rHDPE",
+                "rcycle:outsideSurfaceType": "PE-HD",
+                "rcycle:productType": "BOTTLE",
+                "rcycle:productionStep": "BLOW_MOULDING"
+            },
+            "inputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000549/10/AYLqJKNb701004",
+                    "quantity": 2850,
+                    "uom": "KGM"
+                }
+            ],
+            "outputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/04064074001765/10/AYqZKLPz701004",
+                    "quantity": 25000
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001755/254/1"
+            },
+            "type": "TransformationEvent"
+        }
+    },
+    {
+        "level": 2,
+        "parent_id": "/01/04064074001970/10/mBsLXFfTJe",
+        "child_id": "/01/04064074001918/10/qvMNRYEiA",
+        "gtin": "04064074001918",
+        "lot": "qvMNRYEiA",
+        "type": "Cap",
+        "product_name": "Cap",
+        "detailed_name": "Ver FT Balea Bath B900 P264C Flieder",
+        "brand_id": null,
+        "product_brand": null,
+        "sub_brand_name": null,
+        "primary_image": null,
+        "quantity_value": "50000.00",
+        "quantity_uom": null,
+        "quantity_uom_desc": null,
+        "Production Date": "2022-05-07T12:45:15.000Z",
+        "GLN": "4064074001880",
+        "GLN_Name": "KTU-Plant from SHB",
+        "readPoint": "/414/4064074001880/254/1",
+        "readPointName": "Production Line at KTU",
+        "packaging_type": null,
+        "packaging_type_name": null,
+        "packaging_type_description": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_description": null,
+        "content_of_packaging_long_description": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": "7.00",
+        "unit_weight_uom": "GRM",
+        "unit_weight_uom_desc": "g",
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": "CAP",
+        "product_type_desc": "Cap",
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": "PP2",
+        "application_range_desc": "PP - 1.0-30 g/10min at 2.16 kg/230 °C",
+        "application_range_long_desc": "PP for injection moulding and blow moulding (caps, closures, bottles)",
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "0.24480",
+        "event_id": "ni:///sha-256;013a999882fb2fe0930cc044ac98bed72b55f7e33c1b9d2b1ef319b36f7dbee2?ver=CBV2.0",
+        "event_body": {
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001880"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;013a999882fb2fe0930cc044ac98bed72b55f7e33c1b9d2b1ef319b36f7dbee2?ver=CBV2.0",
+            "eventTime": "2022-05-07T12:45:15.000Z",
+            "eventTimeZoneOffset": "+02:00",
+            "example:InputQuantityShares": [
+                {
+                    "example:quantity": "https://rcycledemo.tvai.me/01/94064074000259/10/AYnvJKOF751005",
+                    "example:unitCode": "P1",
+                    "example:value": 100
+                }
+            ],
+            "ilmd": {
+                "example:applicationRange": "PP2",
+                "example:unitWeight": {
+                    "example:unitCode": "GRM",
+                    "example:value": 7
+                },
+                "rcycle:detailedName": "Ver FT Balea Bath B900 P264C Flieder",
+                "rcycle:outsideSurfaceType": "PP",
+                "rcycle:productType": "CAP",
+                "rcycle:productionStep": "INJECTION_MOULDING"
+            },
+            "inputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000259/10/AYnvJKOF751005",
+                    "quantity": 355,
+                    "uom": "KGM"
+                }
+            ],
+            "outputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/04064074001918/10/qvMNRYEiA",
+                    "quantity": 50000
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001880/254/1"
+            },
+            "type": "TransformationEvent"
+        }
+    },
+    {
+        "level": 2,
+        "parent_id": "/01/04064074001970/10/mBsLXFfTJe",
+        "child_id": "/01/04064074001826/10/erexJYXMBw",
+        "gtin": "04064074001826",
+        "lot": "erexJYXMBw",
+        "type": "Label",
+        "product_name": "Labels (delivered on reels)",
+        "detailed_name": "SLV Balea Bath Dusche Wild Flower",
+        "brand_id": null,
+        "product_brand": null,
+        "sub_brand_name": null,
+        "primary_image": null,
+        "quantity_value": "5600.00",
+        "quantity_uom": null,
+        "quantity_uom_desc": null,
+        "Production Date": "2022-05-24T14:54:00.000Z",
+        "GLN": "4064074001777",
+        "GLN_Name": "all4labels",
+        "readPoint": "/414/4064074001777/254/1",
+        "readPointName": "Production Line at all4labels",
+        "packaging_type": null,
+        "packaging_type_name": null,
+        "packaging_type_description": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_description": null,
+        "content_of_packaging_long_description": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": "1.60",
+        "unit_weight_uom": "GRM",
+        "unit_weight_uom_desc": "g",
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": "LABEL",
+        "product_type_desc": "Label",
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": "PS1",
+        "application_range_desc": "PS, 2-15 g/10min at 5.0 kg/230 °C",
+        "application_range_long_desc": "PS for film extrusion pprocess (film, sleeves, thermoformed cups)",
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "0.05590",
+        "event_id": "ni:///sha-256;a7616348cea49ee10ed83290a678652cb911f601a25d2a961377c1bd9dc58e19?ver=CBV2.0",
+        "event_body": {
+            "action": "ADD",
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001777"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;a7616348cea49ee10ed83290a678652cb911f601a25d2a961377c1bd9dc58e19?ver=CBV2.0",
+            "eventTime": "2022-05-24T14:54:00+02:00",
+            "eventTimeZoneOffset": "+02:00",
+            "example:ColourOfBasicMaterial": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS",
+                    "example:colourCodeValue": "WHITE"
+                }
+            ],
+            "example:ColourOfPrinting": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS_PRINTING",
+                    "example:colourCodeValue": "LIGHT"
+                }
+            ],
+            "example:InputMaterialOrigin": [
+                {
+                    "example:typeCode": "PCR_M",
+                    "example:unitCode": "P1",
+                    "example:value": 0
+                }
+            ],
+            "example:PackagingIngredientDetails": [
+                {
+                    "example:typeCode": "PS",
+                    "example:unitCode": "P1",
+                    "example:value": 96.6
+                },
+                {
+                    "example:typeCode": "INK_NC_BASED",
+                    "example:unitCode": "P1",
+                    "example:value": 3.3
+                },
+                {
+                    "example:typeCode": "ADHESIVE",
+                    "example:unitCode": "P1",
+                    "example:value": 0.1
+                }
+            ],
+            "example:biodegradability": false,
+            "example:foodApproval": true,
+            "ilmd": {
+                "example:applicationRange": "PS1",
+                "example:density": {
+                    "example:unitCode": "23",
+                    "example:value": 1.05
+                },
+                "example:unitWeight": {
+                    "example:unitCode": "GRM",
+                    "example:value": 1.6
+                },
+                "rcycle:articleNumber": "6123213",
+                "rcycle:detailedName": "SLV Balea Bath Dusche Wild Flower",
+                "rcycle:outsideSurfaceType": "PS",
+                "rcycle:productType": "LABEL",
+                "rcycle:productionStep": "PRODUCT_GENERATION",
+                "rcycle:thickness": {
+                    "rcycle:unitCode": "4H",
+                    "rcycle:value": 46.5
+                }
+            },
+            "quantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/04064074001826/10/erexJYXMBw",
+                    "quantity": 5600
+                }
+            ],
+            "rcycle:printType": "SURFACE_PRINT",
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001777/254/1"
+            },
+            "type": "ObjectEvent"
+        }
+    },
+    {
+        "level": 3,
+        "parent_id": "/01/04064074001918/10/qvMNRYEiA",
+        "child_id": "/01/94064074000259/10/AYnvJKOF751005",
+        "gtin": "94064074000259",
+        "lot": "AYnvJKOF751005",
+        "type": "Pellets - PP",
+        "product_name": "Raw Material",
+        "detailed_name": "PP Compound",
+        "brand_id": "707e1207-9b33-4302-88bc-3c859e9cbb45",
+        "product_brand": "Various Packaging Materials and Components",
+        "sub_brand_name": null,
+        "primary_image": null,
+        "quantity_value": "10000.00",
+        "quantity_uom": "KGM",
+        "quantity_uom_desc": "kg",
+        "Production Date": "2022-04-09T12:40:40.000Z",
+        "GLN": "4064074000358",
+        "GLN_Name": "Non-specific production site",
+        "readPoint": "/414/4064074000358/254/2",
+        "readPointName": "Non-specific production line",
+        "packaging_type": null,
+        "packaging_type_name": null,
+        "packaging_type_description": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_description": null,
+        "content_of_packaging_long_description": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": "PELLETS",
+        "product_shape_desc": "Pellets",
+        "product_type": null,
+        "product_type_desc": null,
+        "product_class": "PP",
+        "product_class_group": "PLASTIC",
+        "product_class_desc": "PP",
+        "product_class_long_desc": "This code includes HomoPP, mPP, PP-based tie  resins and PP-based masterbatches. It is also  used if there is a mixture of PP types, for example after recycling, or if the used PP types are not  known more precisely.",
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": "20.00",
+        "mfr_uom": "GRM",
+        "mfr_uom_desc": "g",
+        "share": "1.00000",
+        "event_id": "ni:///sha-256;d34f3d96dc88499bf105c2cb6d46a17b14f96cf5201ab1c2dd291dc64c61e3d7?ver=CBV2.0",
+        "event_body": {
+            "action": "ADD",
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000358"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;d34f3d96dc88499bf105c2cb6d46a17b14f96cf5201ab1c2dd291dc64c61e3d7?ver=CBV2.0",
+            "eventTime": "2022-04-09T12:40:40.000Z",
+            "eventTimeZoneOffset": "+02:00",
+            "example:AdditiveDetails": [
+                {
+                    "example:additiveCodeValue": "MB_OB",
+                    "example:additiveLevelOfContainment": "CONTAINS"
+                },
+                {
+                    "example:additiveCodeValue": "MB_CB",
+                    "example:additiveLevelOfContainment": "FREE_FROM"
+                }
+            ],
+            "example:ColourOfBasicMaterial": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS",
+                    "example:colourCodeValue": "LIGHT"
+                }
+            ],
+            "example:PackagingIngredientDetails": [
+                {
+                    "example:typeCode": "PP",
+                    "example:unitCode": "P1",
+                    "example:value": 100
+                }
+            ],
+            "example:biodegradability": false,
+            "example:density": {
+                "example:unitCode": "23",
+                "example:value": 0.905
+            },
+            "example:foodApproval": true,
+            "ilmd": {
+                "rcycle:colourNote": "Lilac",
+                "rcycle:condition": "/10 min @ 230 °C 2.16 kg",
+                "rcycle:detailedName": "PP Compound",
+                "rcycle:internalBatch": "220320COMP-0814",
+                "rcycle:mfr": {
+                    "rcycle:unitCode": "GRM",
+                    "rcycle:value": 20
+                },
+                "rcycle:norm": "DIN EN ISO 1133-1",
+                "rcycle:productClass": "PP",
+                "rcycle:productShape": "PELLETS",
+                "rcycle:productionStep": "COMPOUNDING"
+            },
+            "quantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000259/10/AYnvJKOF751005",
+                    "quantity": 10000,
+                    "uom": "KGM"
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000358/254/2"
+            },
+            "type": "ObjectEvent"
+        }
+    },
+    {
+        "level": 3,
+        "parent_id": "/01/04064074001765/10/AYqZKLPz701004",
+        "child_id": "/01/94064074000549/10/AYLqJKNb701004",
+        "gtin": "94064074000549",
+        "lot": "AYLqJKNb701004",
+        "type": "Pellets - PE-HD",
+        "product_name": "Recyclate",
+        "detailed_name": "HDPE Recyclate",
+        "brand_id": null,
+        "product_brand": null,
+        "sub_brand_name": null,
+        "primary_image": "2c813eac-5554-4ff1-93e4-d6ed1905c0d5",
+        "quantity_value": "5500.00",
+        "quantity_uom": "KGM",
+        "quantity_uom_desc": "kg",
+        "Production Date": "2022-04-24T10:28:10.000Z",
+        "GLN": "4064074000358",
+        "GLN_Name": "Non-specific production site",
+        "readPoint": "/414/4064074000358/254/1",
+        "readPointName": "Non-specific production line",
+        "packaging_type": null,
+        "packaging_type_name": null,
+        "packaging_type_description": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_description": null,
+        "content_of_packaging_long_description": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": "PELLETS",
+        "product_shape_desc": "Pellets",
+        "product_type": null,
+        "product_type_desc": null,
+        "product_class": "PE-HD",
+        "product_class_group": "PLASTIC",
+        "product_class_desc": "PE-HD",
+        "product_class_long_desc": "This group includes all high-density polyethylene types which means typically in packaging applications a density of 0.941-0.969 g/cm3.",
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": "8.50",
+        "mfr_uom": "GRM",
+        "mfr_uom_desc": "g",
+        "share": "0.97000",
+        "event_id": "ni:///sha-256;e0cf8ab059e9d4676f2b56c5344f495dd8df3e5ca8792cc00b87c414e54f9425?ver=CBV2.0",
+        "event_body": {
+            "action": "ADD",
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000358"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;e0cf8ab059e9d4676f2b56c5344f495dd8df3e5ca8792cc00b87c414e54f9425?ver=CBV2.0",
+            "eventTime": "2022-04-24T10:28:10+02:00",
+            "eventTimeZoneOffset": "+02:00",
+            "example:AdditiveDetails": [
+                {
+                    "example:additiveCodeValue": "MB_CB",
+                    "example:additiveLevelOfContainment": "FREE_FROM"
+                }
+            ],
+            "example:ColourOfBasicMaterial": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS",
+                    "example:colourCodeValue": "TRANSPARENT_NC"
+                }
+            ],
+            "example:InputMaterialOrigin": [
+                {
+                    "example:typeCode": "PCR_M",
+                    "example:unitCode": "P1",
+                    "example:value": 100
+                }
+            ],
+            "example:PackagingIngredientDetails": [
+                {
+                    "example:typeCode": "PE-HD",
+                    "example:unitCode": "P1",
+                    "example:value": 100
+                }
+            ],
+            "example:biodegradability": false,
+            "example:density": {
+                "example:unitCode": "23",
+                "example:value": 0.955
+            },
+            "example:foodApproval": false,
+            "ilmd": {
+                "rcycle:RecommendedUse": [
+                    {
+                        "rcycle:typeCode": "blowMoulding"
+                    }
+                ],
+                "rcycle:colourNote": "Natural",
+                "rcycle:condition": "/10 min @ 190 °C 2.16 kg",
+                "rcycle:detailedName": "HDPE Recyclate",
+                "rcycle:filtrationFineness": {
+                    "rcycle:unitCode": "4H",
+                    "rcycle:value": 180
+                },
+                "rcycle:mfr": {
+                    "rcycle:unitCode": "GRM",
+                    "rcycle:value": 8.5
+                },
+                "rcycle:norm": "DIN EN ISO 1133-1",
+                "rcycle:packagingUnit": "BIG_BAG",
+                "rcycle:packagingUnitNumber": 4,
+                "rcycle:productClass": "PE-HD",
+                "rcycle:productShape": "PELLETS",
+                "rcycle:productionStep": "REGRANULATION"
+            },
+            "quantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000549/10/AYLqJKNb701004",
+                    "quantity": 5500,
+                    "uom": "KGM"
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000358/254/1"
+            },
+            "type": "ObjectEvent"
+        }
+    }
+]

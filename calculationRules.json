@@ -1,0 +1,2586 @@
+[
+    {
+        "id": 90001,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "calc_unitWeight"
+        },
+        "rule_no": null,
+        "attribute": "unitWeight"
+    },
+    {
+        "id": 90003,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_type_desc"]
+        }, 
+        "rule_no": null,
+        "attribute": "productType"
+    },
+    {
+        "id": 90005,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_type_desc"]
+        }, 
+        "rule_no": null,
+        "attribute": "productType"
+    },
+    {
+        "id": 90007,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["product_class"],["product_class_group"],["product_class_desc"],["product_class_long_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "productClass"
+    },
+    {
+        "id": 90009,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "applicationRange"
+    },
+    {
+        "id": 90011,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "applicationRange"
+    },
+    {
+        "id": 90013,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "applicationRange"
+    },
+    {
+        "id": "XXXXX",
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "applicationRange"
+    },
+    {
+        "id": 90015,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "SLITTING",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "density"
+    },
+    {
+        "id": 90017,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "PRINTING",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "density"
+    },
+    {
+        "id": 90019,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "LAMINATING",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "density"
+    },
+    {
+        "id": 90021,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "density"
+    },
+    {
+        "id": 90023,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "FILM_EXTRUSION",
+        "calculation_rule": {
+            "action": "calc_surfaceWeight"
+        },
+        "rule_no": null,
+        "attribute": "surfaceWeight"
+    },
+    {
+        "id": 90025,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "PRINTING",
+        "calculation_rule": {
+            "action": "calc_surfaceWeight"
+        },
+        "rule_no": null,
+        "attribute": "surfaceWeight"
+    },
+    {
+        "id": 90027,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "LAMINATING",
+        "calculation_rule": {
+            "action": "calc_surfaceWeight"
+        },
+        "rule_no": null,
+        "attribute": "surfaceWeight"
+    },
+    {
+        "id": 90029,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "SLITTING",
+        "calculation_rule": {
+            "action": "calc_surfaceWeight"
+        },
+        "rule_no": null,
+        "attribute": "surfaceWeight"
+    },
+    {
+        "id": 90031,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:30.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "calc_surfaceWeight"
+        },
+        "rule_no": null,
+        "attribute": "surfaceWeight"
+    },
+    {
+        "id": 90033,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "FILM_EXTRUSION",
+        "calculation_rule": {
+            "action": "calc_thickness"
+        },
+        "rule_no": null,
+        "attribute": "thickness"
+    },
+    {
+        "id": 90035,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "PRINTING",
+        "calculation_rule": {
+            "action": "calc_thickness"
+        },
+        "rule_no": null,
+        "attribute": "thickness"
+    },
+    {
+        "id": 90037,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "LAMINATING",
+        "calculation_rule": {
+            "action": "calc_thickness"
+        },
+        "rule_no": null,
+        "attribute": "thickness"
+    },
+    {
+        "id": 90039,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "SLITTING",
+        "calculation_rule": {
+            "action": "calc_thickness"
+        },
+        "rule_no": null,
+        "attribute": "thickness"
+    },
+    {
+        "id": 90041,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_updated": "2025-05-27T08:51:56.000Z",
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "calc_thickness"
+        },
+        "rule_no": "NULL",
+        "attribute": "thickness"
+    },
+    {
+        "id": 90043,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "LAMINATING",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "ColourOfBasicMaterial_colourCodeValue"
+    },
+    {
+        "id": 90045,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "ColourOfBasicMaterial_colourCodeValue"
+    },
+    {
+        "id": 90047,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "ColourOfBasicMaterial_colourCodeValue"
+    },
+    {
+        "id": 90049,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "ColourOfBasicMaterial_colourCodeValue"
+    },
+    {
+        "id": 90051,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "PRINTING",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "ColourOfPrinting_colourCodeValue"
+    },
+    {
+        "id": 90053,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "ColourOfPrinting_colourCodeValue"
+    },
+    {
+        "id": 90055,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "ColourOfPrinting_colourCodeValue"
+    },
+    {
+        "id": 90057,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "ColourOfPrinting_colourCodeValue"
+    },
+    {
+        "id": 90059,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "PRODUCT_GENERATION",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "ColourOfPrinting_colourCodeValue"
+    },
+    {
+        "id": 90061,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "printType"
+    },
+    {
+        "id": 90063,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "printType"
+    },
+    {
+        "id": 90065,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "PRODUCT_GENERATION",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "printType"
+    },
+    {
+        "id": 90067,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "calc_bioDegradability"
+        },
+        "rule_no": null,
+        "attribute": "biodegradability"
+    },
+    {
+        "id": 90069,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "calc_bioDegradability"
+        },
+        "rule_no": null,
+        "attribute": "biodegradability"
+    },
+    {
+        "id": 90071,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "calc_bioDegradability"
+        },
+        "rule_no": null,
+        "attribute": "biodegradability"
+    },
+    {
+        "id": 90073,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "calc_bioDegradability"
+        },
+        "rule_no": null,
+        "attribute": "biodegradability"
+    },
+    {
+        "id": 90075,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "calc_bioDegradability"
+        },
+        "rule_no": null,
+        "attribute": "biodegradability"
+    },
+    {
+        "id": 90077,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "calc_bioDegradability"
+        },
+        "rule_no": null,
+        "attribute": "biodegradability"
+    },
+    {
+        "id": 90079,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "calc_foodApproval"
+        },
+        "rule_no": null,
+        "attribute": "foodApproval"
+    },
+    {
+        "id": 90081,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "calc_foodApproval"
+        },
+        "rule_no": null,
+        "attribute": "foodApproval"
+    },
+    {
+        "id": 90083,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "calc_foodApproval"
+        },
+        "rule_no": null,
+        "attribute": "foodApproval"
+    },
+    {
+        "id": 90085,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "calc_foodApproval"
+        },
+        "rule_no": null,
+        "attribute": "foodApproval"
+    },
+    {
+        "id": 90087,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "calc_foodApproval"
+        },
+        "rule_no": null,
+        "attribute": "foodApproval"
+    },
+    {
+        "id": 90089,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "calc_foodApproval"
+        },
+        "rule_no": null,
+        "attribute": "foodApproval"
+    },
+    {
+        "id": 90091,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["readPointName"]
+        }, 
+        "rule_no": null,
+        "attribute": "readPointName"
+    },
+    {
+        "id": 90093,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["readPointName"]
+        }, 
+        "rule_no": null,
+        "attribute": "readPointName"
+    },
+    {
+        "id": 90095,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["readPointName"]
+        }, 
+        "rule_no": null,
+        "attribute": "readPointName"
+    },
+    {
+        "id": 90097,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["readPointName"]
+        }, 
+        "rule_no": null,
+        "attribute": "readPointName"
+    },
+    {
+        "id": 90099,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["readPointName"]
+        }, 
+        "rule_no": null,
+        "attribute": "readPointName"
+    },
+    {
+        "id": 90101,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["readPointName"]
+        }, 
+        "rule_no": null,
+        "attribute": "readPointName"
+    },
+    {
+        "id": 90103,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["GLN_Name"]
+        },
+        "rule_no": null,
+        "attribute": "bizLocationName"
+    },
+    {
+        "id": 90105,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["GLN_Name"]
+        },
+        "rule_no": null,
+        "attribute": "bizLocationName"
+    },
+    {
+        "id": 90107,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["GLN_Name"]
+        },
+        "rule_no": null,
+        "attribute": "bizLocationName"
+    },
+    {
+        "id": 90109,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["GLN_Name"]
+        },
+        "rule_no": null,
+        "attribute": "bizLocationName"
+    },
+    {
+        "id": 90111,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["GLN_Name"]
+        },
+        "rule_no": null,
+        "attribute": "bizLocationName"
+    },
+    {
+        "id": 90113,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["GLN_Name"]
+        },
+        "rule_no": null,
+        "attribute": "bizLocationName"
+    },
+    {
+        "id": 90115,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_name"]
+        },
+        "rule_no": null,
+        "attribute": "product_name"
+    },
+    {
+        "id": 90117,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_name"]
+        },        
+        "rule_no": null,
+        "attribute": "product_name"
+    },
+    {
+        "id": 90119,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_name"]
+        },        
+        "rule_no": null,
+        "attribute": "product_name"
+    },
+    {
+        "id": 90121,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_name"]
+        },        
+        "rule_no": null,
+        "attribute": "product_name"
+    },
+    {
+        "id": 90123,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_name"]
+        },        
+        "rule_no": null,
+        "attribute": "product_name"
+    },
+    {
+        "id": 90125,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_name"]
+        },        
+        "rule_no": null,
+        "attribute": "product_name"
+    },
+    {
+        "id": 90127,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["gtin"]
+        }, 
+        "rule_no": null,
+        "attribute": "gtin"
+    },
+    {
+        "id": 90129,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["gtin"]
+        },
+        "rule_no": null,
+        "attribute": "gtin"
+    },
+    {
+        "id": 90131,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["gtin"]
+        }, 
+        "rule_no": null,
+        "attribute": "gtin"
+    },
+    {
+        "id": 90133,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["gtin"]
+        }, 
+        "rule_no": null,
+        "attribute": "gtin"
+    },
+    {
+        "id": 90135,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["gtin"]
+        }, 
+        "rule_no": null,
+        "attribute": "gtin"
+    },
+    {
+        "id": 90137,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["gtin"]
+        }, 
+        "rule_no": null,
+        "attribute": "gtin"
+    },
+    {
+        "id": 90139,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_brand"]
+        }, 
+        "rule_no": null,
+        "attribute": "product_brand"
+    },
+    {
+        "id": 90141,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_brand"]
+        }, 
+        "rule_no": null,
+        "attribute": "product_brand"
+    },
+    {
+        "id": 90143,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_brand"]
+        }, 
+        "rule_no": null,
+        "attribute": "product_brand"
+    },
+    {
+        "id": 90145,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_brand"]
+        }, 
+        "rule_no": null,
+        "attribute": "product_brand"
+    },
+    {
+        "id": 90147,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_brand"]
+        }, 
+        "rule_no": null,
+        "attribute": "product_brand"
+    },
+    {
+        "id": 90149,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_brand"]
+        }, 
+        "rule_no": null,
+        "attribute": "product_brand"
+    },
+    {
+        "id": 90151,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["lot"]
+        }, 
+        "rule_no": null,
+        "attribute": "lot"
+    },
+    {
+        "id": 90153,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["lot"]
+        }, 
+        "rule_no": null,
+        "attribute": "lot"
+    },
+    {
+        "id": 90155,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["lot"]
+        }, 
+        "rule_no": null,
+        "attribute": "lot"
+    },
+    {
+        "id": 90157,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["lot"]
+        }, 
+        "rule_no": null,
+        "attribute": "lot"
+    },
+    {
+        "id": 90159,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["lot"]
+        }, 
+        "rule_no": null,
+        "attribute": "lot"
+    },
+    {
+        "id": 90161,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["lot"]
+        }, 
+        "rule_no": null,
+        "attribute": "lot"
+    },
+    {
+        "id": 90163,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["quantity_value"],["quantity_uom"]]
+        },
+        "rule_no": null,
+        "attribute": "lotQuantity"
+    },
+    {
+        "id": 90165,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["quantity_value"],["quantity_uom"]]
+        },
+        "rule_no": null,
+        "attribute": "lotQuantity"
+    },
+    {
+        "id": 90167,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["quantity_value"],["quantity_uom"]]
+        },
+        "rule_no": null,
+        "attribute": "lotQuantity"
+    },
+    {
+        "id": 90169,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["quantity_value"],["quantity_uom"]]
+        },
+        "rule_no": null,
+        "attribute": "lotQuantity"
+    },
+    {
+        "id": 90171,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["quantity_value"],["quantity_uom"]]
+        },
+        "rule_no": null,
+        "attribute": "lotQuantity"
+    },
+    {
+        "id": 90173,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["quantity_value"],["quantity_uom"]]
+        },
+        "rule_no": null,
+        "attribute": "lotQuantity"
+    },
+    {
+        "id": 90175,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["production_step_desc"]
+        }, 
+        "rule_no": null,
+        "attribute": "productionStep"
+    },
+    {
+        "id": 90177,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["production_step_desc"]
+        }, 
+        "rule_no": null,
+        "attribute": "productionStep"
+    },
+    {
+        "id": 90179,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["production_step_desc"]
+        }, 
+        "rule_no": null,
+        "attribute": "productionStep"
+    },
+    {
+        "id": 90181,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["production_step_desc"]
+        }, 
+        "rule_no": null,
+        "attribute": "productionStep"
+    },
+    {
+        "id": 90183,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["production_step_desc"]
+        }, 
+        "rule_no": null,
+        "attribute": "productionStep"
+    },
+    {
+        "id": 90185,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["production_step_desc"]
+        }, 
+        "rule_no": null,
+        "attribute": "productionStep"
+    },
+    {
+        "id": 90187,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["packaging_type"],["packaging_type_desc"],["packaging_type_long_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "packagingType"
+    },
+    {
+        "id": 90189,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["packaging_level"],["packaging_level_desc"],["packaging_level_long_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "packagingLevel"
+    },
+    {
+        "id": 90191,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["content_of_packaging"],["content_of_packaging_desc"],["content_of_packaging_long_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "contentOfPackaging"
+    },
+    {
+        "id": 90193,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["product_shape_desc"]
+        }, 
+        "rule_no": null,
+        "attribute": "productShape"
+    },
+    {
+        "id": 90195,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "outsideSurfaceType"
+    },
+    {
+        "id": 90197,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "outsideSurfaceType"
+    },
+    {
+        "id": 90199,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "outsideSurfaceType"
+    },
+    {
+        "id": 90201,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "outsideSurfaceType"
+    },
+    {
+        "id": 90203,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "insideSurfaceType"
+    },
+    {
+        "id": 90205,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "insideSurfaceType"
+    },
+    {
+        "id": 90207,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "insideSurfaceType"
+    },
+    {
+        "id": 90209,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "insideSurfaceType"
+    },
+    {
+        "id": 90211,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "windingCoreType"
+    },
+    {
+        "id": 90213,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "windingCoreType"
+    },
+    {
+        "id": 90215,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "windingCoreType"
+    },
+    {
+        "id": 90217,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "treatmentType"
+    },
+    {
+        "id": 90219,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "treatmentType"
+    },
+    {
+        "id": 90221,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "treatedSide"
+    },
+    {
+        "id": 90223,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "treatedSide"
+    },
+    {
+        "id": 90225,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "packagingUnit"
+    },
+    {
+        "id": 90227,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "packagingUnit"
+    },
+    {
+        "id": 90229,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "packagingUnit"
+    },
+    {
+        "id": 90231,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "packagingUnit"
+    },
+    {
+        "id": 90233,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "packagingUnit"
+    },
+    {
+        "id": 90235,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "packagingUnit"
+    },
+    {
+        "id": 90237,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "wasteOrigin"
+    },
+    {
+        "id": 90239,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "wasteCollectionType"
+    },
+    {
+        "id": 90241,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "wasteCategory"
+    },
+    {
+        "id": 90243,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:32.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": null,
+        "rule_no": null,
+        "attribute": "wasteOriginSector"
+    },
+    {
+        "id": 90115,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:articleNumber"]
+        },
+        "rule_no": null,
+        "attribute": "articleNumber"
+    },
+    {
+        "id": 90117,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:articleNumber"]
+        },        
+        "rule_no": null,
+        "attribute": "articleNumber"
+    },
+    {
+        "id": 90119,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:articleNumber"]
+        },        
+        "rule_no": null,
+        "attribute": "articleNumber"
+    },
+    {
+        "id": 90121,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:articleNumber"]
+        },        
+        "rule_no": null,
+        "attribute": "articleNumber"
+    },
+    {
+        "id": 90123,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:articleNumber"]
+        },        
+        "rule_no": null,
+        "attribute": "articleNumber"
+    },
+    {
+        "id": 90125,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:articleNumber"]
+        },        
+        "rule_no": null,
+        "attribute": "articleNumber"
+    },
+    {
+        "id": 90115,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["detailed_name"]
+        },
+        "rule_no": null,
+        "attribute": "detailedName"
+    },
+    {
+        "id": 90117,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["detailed_name"]
+        },        
+        "rule_no": null,
+        "attribute": "detailedName"
+    },
+    {
+        "id": 90119,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["detailed_name"]
+        },        
+        "rule_no": null,
+        "attribute": "detailedName"
+    },
+    {
+        "id": 90121,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["detailed_name"]
+        },        
+        "rule_no": null,
+        "attribute": "detailedName"
+    },
+    {
+        "id": 90123,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["detailed_name"]
+        },        
+        "rule_no": null,
+        "attribute": "detailedName"
+    },
+    {
+        "id": 90125,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["detailed_name"]
+        },        
+        "rule_no": null,
+        "attribute": "detailedName"
+    },
+    {
+        "id": 90115,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "eventTime"]
+        },
+        "rule_no": null,
+        "attribute": "eventTime"
+    },
+    {
+        "id": 90117,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "eventTime"]
+        },        
+        "rule_no": null,
+        "attribute": "eventTime"
+    },
+    {
+        "id": 90119,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "eventTime"]
+        },        
+        "rule_no": null,
+        "attribute": "eventTime"
+    },
+    {
+        "id": 90121,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "eventTime"]
+        },        
+        "rule_no": null,
+        "attribute": "eventTime"
+    },
+    {
+        "id": 90123,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "eventTime"]
+        },        
+        "rule_no": null,
+        "attribute": "eventTime"
+    },
+    {
+        "id": 90125,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "eventTime"]
+        },        
+        "rule_no": null,
+        "attribute": "eventTime"
+    },
+        {
+        "id": 90103,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["GLN"]
+        },
+        "rule_no": null,
+        "attribute": "bizLocation"
+    },
+    {
+        "id": 90105,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["GLN"]
+        },
+        "rule_no": null,
+        "attribute": "bizLocation"
+    },
+    {
+        "id": 90107,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["GLN"]
+        },
+        "rule_no": null,
+        "attribute": "bizLocation"
+    },
+    {
+        "id": 90109,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["GLN"]
+        },
+        "rule_no": null,
+        "attribute": "bizLocation"
+    },
+    {
+        "id": 90111,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["GLN"]
+        },
+        "rule_no": null,
+        "attribute": "bizLocation"
+    },
+    {
+        "id": 90113,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["GLN"]
+        },
+        "rule_no": null,
+        "attribute": "bizLocation"
+    },
+    {
+        "id": 90091,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["readPoint"]
+        }, 
+        "rule_no": null,
+        "attribute": "readPoint"
+    },
+    {
+        "id": 90093,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["readPoint"]
+        }, 
+        "rule_no": null,
+        "attribute": "readPoint"
+    },
+    {
+        "id": 90095,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["readPoint"]
+        }, 
+        "rule_no": null,
+        "attribute": "readPoint"
+    },
+    {
+        "id": 90097,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["readPoint"]
+        }, 
+        "rule_no": null,
+        "attribute": "readPoint"
+    },
+    {
+        "id": 90099,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["readPoint"]
+        }, 
+        "rule_no": null,
+        "attribute": "readPoint"
+    },
+    {
+        "id": 90101,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["readPoint"]
+        }, 
+        "rule_no": null,
+        "attribute": "readPoint"
+    },
+    {
+        "id": 90091,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:internalBatch"]
+        }, 
+        "rule_no": null,
+        "attribute": "internalBatch"
+    },
+    {
+        "id": 90093,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:internalBatch"]
+        }, 
+        "rule_no": null,
+        "attribute": "internalBatch"
+    },
+    {
+        "id": 90095,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:internalBatch"]
+        }, 
+        "rule_no": null,
+        "attribute": "internalBatch"
+    },
+    {
+        "id": 90097,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:internalBatch"]
+        }, 
+        "rule_no": null,
+        "attribute": "internalBatch"
+    },
+    {
+        "id": 90099,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:internalBatch"]
+        }, 
+        "rule_no": null,
+        "attribute": "internalBatch"
+    },
+    {
+        "id": 90101,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:internalBatch"]
+        }, 
+        "rule_no": null,
+        "attribute": "internalBatch"
+    },
+    {
+        "id": 90091,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:objectForm"]
+        }, 
+        "rule_no": null,
+        "attribute": "objectForm"
+    },
+    {
+        "id": 90093,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:objectForm"]
+        }, 
+        "rule_no": null,
+        "attribute": "objectForm"
+    },
+    {
+        "id": 90095,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:objectForm"]
+        }, 
+        "rule_no": null,
+        "attribute": "objectForm"
+    },
+    {
+        "id": 90097,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:objectForm"]
+        }, 
+        "rule_no": null,
+        "attribute": "objectForm"
+    },
+    {
+        "id": 90099,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:objectForm"]
+        }, 
+        "rule_no": null,
+        "attribute": "objectForm"
+    },
+    {
+        "id": 90101,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from",
+            "target": ["event_body", "ilmd", "rcycle:objectForm"]
+        }, 
+        "rule_no": null,
+        "attribute": "objectForm"
+    },
+    {
+        "id": 90091,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitLength"
+    },
+    {
+        "id": 90093,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitLength"
+    },
+    {
+        "id": 90095,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitLength"
+    },
+    {
+        "id": 90097,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitLength"
+    },
+    {
+        "id": 90099,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitLength"
+    },
+    {
+        "id": 90101,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitLength"
+    },
+    {
+        "id": 90091,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitWidth"
+    },
+    {
+        "id": 90093,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitWidth"
+    },
+    {
+        "id": 90095,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]]
+        }, 
+        "rule_no": null,
+        "attribute": "unitWidth"
+    },
+    {
+        "id": 90097,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]]
+        }, 
+        "rule_no": null,
+        "attribute": "unitWidth"
+    },
+    {
+        "id": 90099,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]]
+        }, 
+        "rule_no": null,
+        "attribute": "unitWidth"
+    },
+    {
+        "id": 90101,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]]
+        }, 
+        "rule_no": null,
+        "attribute": "unitWidth"
+    },
+    {
+        "id": 90091,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitHeight"
+    },
+    {
+        "id": 90093,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitHeight"
+    },
+    {
+        "id": 90095,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitHeight"
+    },
+    {
+        "id": 90097,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitHeight"
+    },
+    {
+        "id": 90099,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitHeight"
+    },
+    {
+        "id": 90101,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "unitHeight"
+    },
+    {
+        "id": 90091,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "fillingVolume"
+    },
+    {
+        "id": 90093,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "fillingVolume"
+    },
+    {
+        "id": 90095,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "fillingVolume"
+    },
+    {
+        "id": 90097,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "fillingVolume"
+    },
+    {
+        "id": 90099,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "fillingVolume"
+    },
+    {
+        "id": 90101,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "fillingVolume"
+    },
+    {
+        "id": 90091,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "mfr"
+    },
+    {
+        "id": 90093,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component processing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]]
+        }, 
+        "rule_no": null,
+        "attribute": "mfr"
+    },
+    {
+        "id": 90095,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Component reshaping",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "mfr"
+    },
+    {
+        "id": 90097,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Packaging producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "mfr"
+    },
+    {
+        "id": 90099,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Plastic raw material producing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "mfr"
+    },
+    {
+        "id": 90101,
+        "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
+        "date_created": "2025-05-27T08:51:31.000Z",
+        "user_updated": null,
+        "date_updated": null,
+        "production_step": "Waste processing",
+        "calculation_rule": {
+            "action": "read_from_multiple",
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]]
+        },
+        "rule_no": null,
+        "attribute": "mfr"
+    }
+]

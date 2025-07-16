@@ -1,0 +1,1689 @@
+[
+    {
+        "level": 1,
+        "parent_id": "/01/04064074002090/10/AYxbMLP2932005",
+        "child_id": "/01/04064074002090/10/AYxbMLP2932005",
+        "gtin": "04064074002090",
+        "lot": "AYxbMLP2932005",
+        "type": "Packaging - Pouch",
+        "product_name": "Pouch for Detergent (PlasticBond Project)",
+        "detailed_name": "PlasticBond Demo Package (Seal1_BOPE23)",
+        "brand_id": null,
+        "product_brand": null,
+        "sub_brand_name": null,
+        "primary_image": "f6644cde-967f-4e22-a84b-6b60446fe827",
+        "production_step": "PACKAGING_PRODUCTION",
+        "production_step_desc": "Packaging Production",
+        "quantity_value": "1000.00",
+        "quantity_uom": null,
+        "quantity_uom_desc": null,
+        "Production Date": "2024-08-10T13:15:24.000Z",
+        "GLN": "4064074002027",
+        "GLN_Name": "Henkel, Düsseldorf, Germany",
+        "readPoint": "/414/4064074002027/254/2",
+        "readPointName": "Packaging Line for Pouches",
+        "packaging_type": "PO",
+        "packaging_type_desc": "Pouch",
+        "packaging_type_long_desc": "A preformed, flexible container, generally enclosed with a gusset seal at the bottom of the pack can be shaped/arranged to allow the pack to stand on shelf.",
+        "packaging_level": "PRIMARY",
+        "packaging_level_desc": "Primary packaging",
+        "packaging_level_long_desc": "The individual sale unit container that directly contains the product and is handed to the end consumer. For example - a plastic bottle or aluminum can holding a beverage.",
+        "content_of_packaging": null,
+        "content_of_packaging_desc": null,
+        "content_of_packaging_long_desc": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": "130.00",
+        "unit_width_uom": "MMT",
+        "unit_width_uom_desc": "mm",
+        "unit_height": "210.00",
+        "unit_height_uom": "MMT",
+        "unit_height_uom_desc": "mm",
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": "500.00",
+        "filling_volume_uom": "ML",
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": null,
+        "product_type_desc": null,
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "1.00000",
+        "event_id": "ni:///sha-256;b1cbf350ad5981ffc1ca107b75d55be2d5dac498a71a9ba2bc6a16b65bb00df0?ver=CBV2.0",
+        "event_body": {
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074002027"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;b1cbf350ad5981ffc1ca107b75d55be2d5dac498a71a9ba2bc6a16b65bb00df0?ver=CBV2.0",
+            "eventTime": "2024-08-10T13:15:24+01:00",
+            "eventTimeZoneOffset": "+01:00",
+            "example:ComponentDetails": [
+                {
+                    "example:componentTypeCode": "BAG",
+                    "example:inputQuantity": "https://rcycledemo.tvai.me/01/94064074000266/10/AYobMLPz871003",
+                    "example:separabilityCode": "NOT_REMOVABLE",
+                    "example:surfaceCoverage": {
+                        "example:unitCode": "P1",
+                        "example:value": 98
+                    },
+                    "example:unitWeight": {
+                        "example:unitCode": "GRM",
+                        "example:value": 8.7
+                    }
+                },
+                {
+                    "example:componentTypeCode": "SPOUT",
+                    "example:inputQuantity": "https://rcycledemo.tvai.me/01/04064074000270/10/AYGbKLPY754005",
+                    "example:separabilityCode": "NOT_REMOVABLE",
+                    "example:surfaceCoverage": {
+                        "example:unitCode": "P1",
+                        "example:value": 2
+                    },
+                    "example:unitWeight": {
+                        "example:unitCode": "GRM",
+                        "example:value": 2.2
+                    }
+                }
+            ],
+            "ilmd": {
+                "gs1:packagingType": "PO",
+                "rcycle:RecyclabilityList": [
+                    {
+                        "rcycle:areaOfApplication": "DE",
+                        "rcycle:certificateNumber": "Own",
+                        "rcycle:expiryDate": "2026-05-09",
+                        "rcycle:rating": "A",
+                        "rcycle:recyclingValue": {
+                            "rcycle:unitCode": "P1",
+                            "rcycle:value": 96
+                        },
+                        "rcycle:standard": "Estimation",
+                        "rcycle:startDate": "2025-05-09"
+                    }
+                ],
+                "rcycle:detailedName": "PlasticBond Demo Package (Seal1_BOPE23)",
+                "rcycle:fillingVolume": {
+                    "rcycle:unitCode": "ML",
+                    "rcycle:value": 500
+                },
+                "rcycle:objectForm": "2D",
+                "rcycle:packagingLevel": "PRIMARY",
+                "rcycle:productionStep": "PACKAGING_PRODUCTION",
+                "rcycle:unitHeight": {
+                    "rcycle:unitCode": "MMT",
+                    "rcycle:value": 210
+                },
+                "rcycle:unitWidth": {
+                    "rcycle:unitCode": "MMT",
+                    "rcycle:value": 130
+                }
+            },
+            "inputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000266/10/AYobMLPz871003",
+                    "quantity": 240,
+                    "uom": "MTR"
+                },
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/04064074000270/10/AYGbKLPY754005",
+                    "quantity": 1000
+                }
+            ],
+            "outputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/04064074002090/10/AYxbMLP2932005",
+                    "quantity": 1000
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074002027/254/2"
+            },
+            "type": "TransformationEvent"
+        }
+    },
+    {
+        "level": 2,
+        "parent_id": "/01/04064074002090/10/AYxbMLP2932005",
+        "child_id": "/01/94064074000266/10/AYobMLPz871003",
+        "gtin": "94064074000266",
+        "lot": "AYobMLPz871003",
+        "type": "Web",
+        "product_name": "Flexible Material (transparent)",
+        "detailed_name": "Laminate PlasticBond_Seal1_BOPE23",
+        "brand_id": "707e1207-9b33-4302-88bc-3c859e9cbb45",
+        "product_brand": "Various Packaging Materials and Components",
+        "sub_brand_name": null,
+        "primary_image": null,
+        "production_step": "SLITTING",
+        "production_step_desc": "Slitting",
+        "quantity_value": "700.00",
+        "quantity_uom": "MTR",
+        "quantity_uom_desc": "m",
+        "Production Date": "2024-07-01T11:25:56.000Z",
+        "GLN": "4064074001501",
+        "GLN_Name": "Kampf GmbH, Wiehl, D",
+        "readPoint": "/414/4064074001501/254/1",
+        "readPointName": "Slitter 1",
+        "packaging_type": null,
+        "packaging_type_desc": null,
+        "packaging_type_long_desc": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_desc": null,
+        "content_of_packaging_long_desc": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": "WEB",
+        "product_type_desc": "Web",
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "0.79817",
+        "event_id": "ni:///sha-256;fc8df900c48a65c865ee7715de272db749438105d1f7bc5e3cd9010ebe62ed25?ver=CBV2.0",
+        "event_body": {
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001501"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;fc8df900c48a65c865ee7715de272db749438105d1f7bc5e3cd9010ebe62ed25?ver=CBV2.0",
+            "eventTime": "2024-07-01T11:25:56+01:00",
+            "eventTimeZoneOffset": "+01:00",
+            "example:InputQuantityShares": [
+                {
+                    "example:quantity": "https://rcycledemo.tvai.me/01/94064074000266/10/AYfbMLPq702004",
+                    "example:unitCode": "P1",
+                    "example:value": 100
+                }
+            ],
+            "ilmd": {
+                "rcycle:detailedName": "Laminate PlasticBond_Seal1_BOPE23",
+                "rcycle:productType": "WEB",
+                "rcycle:productionStep": "SLITTING",
+                "rcycle:substrateWidth": {
+                    "rcycle:unitCode": "MMT",
+                    "rcycle:value": 490
+                }
+            },
+            "inputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000266/10/AYfbMLPq702004",
+                    "quantity": 750,
+                    "uom": "MTR"
+                }
+            ],
+            "outputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000266/10/AYobMLPz871003",
+                    "quantity": 700,
+                    "uom": "MTR"
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001501/254/1"
+            },
+            "type": "TransformationEvent"
+        }
+    },
+    {
+        "level": 2,
+        "parent_id": "/01/04064074002090/10/AYxbMLP2932005",
+        "child_id": "/01/04064074000270/10/AYGbKLPY754005",
+        "gtin": "04064074000270",
+        "lot": "AYGbKLPY754005",
+        "type": "Spout",
+        "product_name": "Rigid Material (unspecific)",
+        "detailed_name": "Spout PE-80",
+        "brand_id": "707e1207-9b33-4302-88bc-3c859e9cbb45",
+        "product_brand": "Various Packaging Materials and Components",
+        "sub_brand_name": null,
+        "primary_image": null,
+        "production_step": "INJECTION_MOULDING",
+        "production_step_desc": "Injection Moulding",
+        "quantity_value": "1000.00",
+        "quantity_uom": null,
+        "quantity_uom_desc": null,
+        "Production Date": "2023-12-06T11:33:00.000Z",
+        "GLN": "4064074000148",
+        "GLN_Name": "Pöppelmann GmbH & Co.KG, Werk 1",
+        "readPoint": "/414/4064074000148/254/4",
+        "readPointName": "Production Line",
+        "packaging_type": null,
+        "packaging_type_desc": null,
+        "packaging_type_long_desc": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_desc": null,
+        "content_of_packaging_long_desc": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": "2.20",
+        "unit_weight_uom": "GRM",
+        "unit_weight_uom_desc": "g",
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": "SPOUT",
+        "product_type_desc": "Spout",
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "0.20183",
+        "event_id": "ni:///sha-256;041b41d63baebe205ac488de75638909818222af243c43f33f6521dbe041d4fb?ver=CBV2.0",
+        "event_body": {
+            "action": "ADD",
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000148"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;041b41d63baebe205ac488de75638909818222af243c43f33f6521dbe041d4fb?ver=CBV2.0",
+            "eventTime": "2023-12-06T11:33:00+01:00",
+            "eventTimeZoneOffset": "+01:00",
+            "example:ColourOfBasicMaterial": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS",
+                    "example:colourCodeValue": "LIGHT"
+                }
+            ],
+            "example:InputMaterialOrigin": [
+                {
+                    "example:typeCode": "PCR_M",
+                    "example:unitCode": "P1",
+                    "example:value": 80
+                }
+            ],
+            "example:PackagingIngredientDetails": [
+                {
+                    "example:typeCode": "PE",
+                    "example:unitCode": "P1",
+                    "example:value": 100
+                }
+            ],
+            "example:biodegradability": false,
+            "example:foodApproval": false,
+            "ilmd": {
+                "example:density": {
+                    "example:unitCode": "23",
+                    "example:value": 0.91
+                },
+                "example:unitWeight": {
+                    "example:unitCode": "GRM",
+                    "example:value": 2.2
+                },
+                "rcycle:detailedName": "Spout PE-80",
+                "rcycle:productType": "SPOUT",
+                "rcycle:productionStep": "INJECTION_MOULDING"
+            },
+            "quantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/04064074000270/10/AYGbKLPY754005",
+                    "quantity": 1000
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000148/254/4"
+            },
+            "type": "ObjectEvent"
+        }
+    },
+    {
+        "level": 3,
+        "parent_id": "/01/94064074000266/10/AYobMLPz871003",
+        "child_id": "/01/94064074000266/10/AYfbMLPq702004",
+        "gtin": "94064074000266",
+        "lot": "AYfbMLPq702004",
+        "type": "Web",
+        "product_name": "Flexible Material (transparent)",
+        "detailed_name": "Laminate PlasticBond_Seal1_BOPE23",
+        "brand_id": "707e1207-9b33-4302-88bc-3c859e9cbb45",
+        "product_brand": "Various Packaging Materials and Components",
+        "sub_brand_name": null,
+        "primary_image": null,
+        "production_step": "LAMINATING",
+        "production_step_desc": "Laminating",
+        "quantity_value": "750.00",
+        "quantity_uom": "MTR",
+        "quantity_uom_desc": "m",
+        "Production Date": "2024-06-12T13:21:19.000Z",
+        "GLN": "4064074000176",
+        "GLN_Name": "Gascogne Flexible Germany GmbH, Linnich",
+        "readPoint": "/414/4064074000176/254/2",
+        "readPointName": "Laminator",
+        "packaging_type": null,
+        "packaging_type_desc": null,
+        "packaging_type_long_desc": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_desc": null,
+        "content_of_packaging_long_desc": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": "WEB",
+        "product_type_desc": "Web",
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "1.00000",
+        "event_id": "ni:///sha-256;5d41d9b71e948b2a7f33a496ed35d3e80f10161309c247b4f6076cec8481cd6a?ver=CBV2.0",
+        "event_body": {
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000176"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;5d41d9b71e948b2a7f33a496ed35d3e80f10161309c247b4f6076cec8481cd6a?ver=CBV2.0",
+            "eventTime": "2024-06-12T13:21:19+01:00",
+            "eventTimeZoneOffset": "+01:00",
+            "example:ColourOfBasicMaterial": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS",
+                    "example:colourCodeValue": "TRANSPARENT_NC"
+                }
+            ],
+            "example:InputQuantityShares": [
+                {
+                    "example:quantity": "https://rcycledemo.tvai.me/01/94064074000266/10/AYObMLPm071008",
+                    "example:unitCode": "P1",
+                    "example:value": 81.775
+                },
+                {
+                    "example:quantity": "https://rcycledemo.tvai.me/01/94064074000266/10/YKcT4jUe5S066YUBipS6",
+                    "example:unitCode": "P1",
+                    "example:value": 16.82
+                }
+            ],
+            "example:PackagingIngredientDetails": [
+                {
+                    "example:typeCode": "ADHESIVE_PU_BASED",
+                    "example:unitCode": "P1",
+                    "example:value": 1.43
+                }
+            ],
+            "example:biodegradability": false,
+            "example:density": {
+                "example:unitCode": "23",
+                "example:value": 1
+            },
+            "example:foodApproval": true,
+            "example:surfaceWeight": {
+                "example:unitCode": "GM",
+                "example:value": 2.1
+            },
+            "ilmd": {
+                "rcycle:InsideSealingType": [
+                    {
+                        "rcycle:sealingType": "PE"
+                    }
+                ],
+                "rcycle:detailedName": "Laminate PlasticBond_Seal1_BOPE23",
+                "rcycle:printType": "REVERSE_PRINT",
+                "rcycle:productType": "WEB",
+                "rcycle:productionStep": "LAMINATING",
+                "rcycle:sealingCondMax": {
+                    "rcycle:unitCode": "CEL",
+                    "rcycle:value": 140
+                },
+                "rcycle:sealingCondMin": {
+                    "rcycle:unitCode": "CEL",
+                    "rcycle:value": 130
+                }
+            },
+            "inputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000266/10/AYObMLPm071008",
+                    "quantity": 1000,
+                    "uom": "MTR"
+                },
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000266/10/YKcT4jUe5S066YUBipS6",
+                    "quantity": 1000,
+                    "uom": "MTR"
+                }
+            ],
+            "outputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000266/10/AYfbMLPq702004",
+                    "quantity": 750,
+                    "uom": "MTR"
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000176/254/2"
+            },
+            "type": "TransformationEvent"
+        }
+    },
+    {
+        "level": 4,
+        "parent_id": "/01/94064074000266/10/AYfbMLPq702004",
+        "child_id": "/01/94064074000266/10/AYObMLPm071008",
+        "gtin": "94064074000266",
+        "lot": "AYObMLPm071008",
+        "type": "Web",
+        "product_name": "Flexible Material (transparent)",
+        "detailed_name": "Lamination Film REC70-120-SEAL1",
+        "brand_id": "707e1207-9b33-4302-88bc-3c859e9cbb45",
+        "product_brand": "Various Packaging Materials and Components",
+        "sub_brand_name": null,
+        "primary_image": null,
+        "production_step": "SLITTING",
+        "production_step_desc": "Slitting",
+        "quantity_value": "1000.00",
+        "quantity_uom": "MTR",
+        "quantity_uom_desc": "m",
+        "Production Date": "2023-11-19T12:08:23.000Z",
+        "GLN": "4064074001501",
+        "GLN_Name": "Kampf GmbH, Wiehl, D",
+        "readPoint": "/414/4064074001501/254/1",
+        "readPointName": "Slitter 1",
+        "packaging_type": null,
+        "packaging_type_desc": null,
+        "packaging_type_long_desc": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_desc": null,
+        "content_of_packaging_long_desc": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": "WEB",
+        "product_type_desc": "Web",
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "0.81780",
+        "event_id": "ni:///sha-256;7fa06b35e7f9b929c9827f1f6a6fb27460cbb10a28abe9d4968fe260c2eee72c?ver=CBV2.0",
+        "event_body": {
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001501"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;7fa06b35e7f9b929c9827f1f6a6fb27460cbb10a28abe9d4968fe260c2eee72c?ver=CBV2.0",
+            "eventTime": "2023-11-19T12:08:23+01:00",
+            "eventTimeZoneOffset": "+01:00",
+            "example:InputQuantityShares": [
+                {
+                    "example:quantity": "https://rcycledemo.tvai.me/01/94064074000464/10/AYRVHON0233008",
+                    "example:unitCode": "P1",
+                    "example:value": 100
+                }
+            ],
+            "ilmd": {
+                "rcycle:OutsideSealingType": [
+                    {
+                        "rcycle:sealingType": "PE"
+                    }
+                ],
+                "rcycle:articleNumber": "608047",
+                "rcycle:detailedName": "Lamination Film REC70-120-SEAL1",
+                "rcycle:productType": "WEB",
+                "rcycle:productionStep": "SLITTING",
+                "rcycle:substrateWidth": {
+                    "rcycle:unitCode": "MMT",
+                    "rcycle:value": 1005
+                },
+                "rcycle:windingCore": {
+                    "rcycle:unitCode": "INH",
+                    "rcycle:value": 6
+                }
+            },
+            "inputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000464/10/AYRVHON0233008",
+                    "quantity": 2024,
+                    "uom": "MTR"
+                }
+            ],
+            "outputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000266/10/AYObMLPm071008",
+                    "quantity": 1000,
+                    "uom": "MTR"
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001501/254/1"
+            },
+            "type": "TransformationEvent"
+        }
+    },
+    {
+        "level": 4,
+        "parent_id": "/01/94064074000266/10/AYfbMLPq702004",
+        "child_id": "/01/94064074000266/10/YKcT4jUe5S066YUBipS6",
+        "gtin": "94064074000266",
+        "lot": "YKcT4jUe5S066YUBipS6",
+        "type": "Web",
+        "product_name": "Flexible Material (transparent)",
+        "detailed_name": "BOPE-PCR 5L-23_Printed",
+        "brand_id": "707e1207-9b33-4302-88bc-3c859e9cbb45",
+        "product_brand": "Various Packaging Materials and Components",
+        "sub_brand_name": null,
+        "primary_image": null,
+        "production_step": "PRINTING",
+        "production_step_desc": "Printing",
+        "quantity_value": "2000.00",
+        "quantity_uom": "MTR",
+        "quantity_uom_desc": "m",
+        "Production Date": "2024-06-04T11:06:44.000Z",
+        "GLN": "4064074000176",
+        "GLN_Name": "Gascogne Flexible Germany GmbH, Linnich",
+        "readPoint": "/414/4064074000176/254/1",
+        "readPointName": "Printing Line",
+        "packaging_type": null,
+        "packaging_type_desc": null,
+        "packaging_type_long_desc": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_desc": null,
+        "content_of_packaging_long_desc": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": "WEB",
+        "product_type_desc": "Web",
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "0.16820",
+        "event_id": "ni:///sha-256;f9c3a4e3d6f12981ff27a6f23dcc3fcd99f2aa6b1973b4dbbe6a5c9581807525?ver=CBV2.0",
+        "event_body": {
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000176"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;f9c3a4e3d6f12981ff27a6f23dcc3fcd99f2aa6b1973b4dbbe6a5c9581807525?ver=CBV2.0",
+            "eventTime": "2024-06-04T11:06:44+01:00",
+            "eventTimeZoneOffset": "+01:00",
+            "example:ColourOfPrinting": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS_PRINTING",
+                    "example:colourCodeValue": "LIGHT"
+                }
+            ],
+            "example:InputQuantityShares": [
+                {
+                    "example:quantity": "https://rcycledemo.tvai.me/01/94064074000266/10/AY7bMLPN751005",
+                    "example:unitCode": "P1",
+                    "example:value": 83
+                }
+            ],
+            "example:PackagingIngredientDetails": [
+                {
+                    "example:typeCode": "LACQUER",
+                    "example:unitCode": "P1",
+                    "example:value": 8
+                },
+                {
+                    "example:typeCode": "INK_PU_BASED",
+                    "example:unitCode": "P1",
+                    "example:value": 9
+                }
+            ],
+            "example:biodegradability": false,
+            "example:density": {
+                "example:unitCode": "23",
+                "example:value": 1
+            },
+            "example:foodApproval": true,
+            "example:surfaceWeight": {
+                "example:unitCode": "GM",
+                "example:value": 4.2
+            },
+            "ilmd": {
+                "rcycle:detailedName": "BOPE-PCR 5L-23_Printed",
+                "rcycle:productType": "WEB",
+                "rcycle:productionStep": "PRINTING"
+            },
+            "inputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000266/10/AY7bMLPN751005",
+                    "quantity": 2790,
+                    "uom": "MTR"
+                }
+            ],
+            "outputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000266/10/YKcT4jUe5S066YUBipS6",
+                    "quantity": 2000,
+                    "uom": "MTR"
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000176/254/1"
+            },
+            "type": "TransformationEvent"
+        }
+    },
+    {
+        "level": 5,
+        "parent_id": "/01/94064074000266/10/AYObMLPm071008",
+        "child_id": "/01/94064074000464/10/AYRVHON0233008",
+        "gtin": "94064074000464",
+        "lot": "AYRVHON0233008",
+        "type": "Web",
+        "product_name": "EVO Blown Film with recycled content",
+        "detailed_name": "Lamination Film REC70-120-SEAL1",
+        "brand_id": "fbf57575-dc21-4aed-ad43-1d813cc4f5c7",
+        "product_brand": "EVO Blown Film",
+        "sub_brand_name": "Blown Film produced from Reifenhäuser",
+        "primary_image": null,
+        "production_step": "FILM_EXTRUSION",
+        "production_step_desc": "Film Extrusion",
+        "quantity_value": "2024.00",
+        "quantity_uom": "MTR",
+        "quantity_uom_desc": "m",
+        "Production Date": "2023-08-02T15:54:17.000Z",
+        "GLN": "4064074000405",
+        "GLN_Name": "Reifenhäuser R&D Center",
+        "readPoint": "/414/4064074000405/254/3",
+        "readPointName": "EVO Ultra Fusion 3-1600",
+        "packaging_type": null,
+        "packaging_type_desc": null,
+        "packaging_type_long_desc": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_desc": null,
+        "content_of_packaging_long_desc": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": "WEB",
+        "product_type_desc": "Web",
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": "PE1",
+        "application_range_desc": "PE - 0.2-5.0 g/10min at 2.16 kg/190 °C",
+        "application_range_long_desc": "PE for film extrusion and blow moulding (film, bottles, drums). Including blow moulding grades: HDPE 5-25 g/10min at 21.6 kg/190 °C and HMWPE 2-5 g/10min @21.6 kg/190 °C",
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "1.00000",
+        "event_id": "ni:///sha-256;b2f09c189e2d51ebd4bf3bfbe11b2d8df7e3c3eed4f0902ee2ff1abc246a29eb?ver=CBV2.0",
+        "event_body": {
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000405"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;b2f09c189e2d51ebd4bf3bfbe11b2d8df7e3c3eed4f0902ee2ff1abc246a29eb?ver=CBV2.0",
+            "eventTime": "2023-08-02T15:54:17+02:00",
+            "eventTimeZoneOffset": "+02:00",
+            "example:ColourOfBasicMaterial": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS",
+                    "example:colourCodeValue": "LIGHT"
+                }
+            ],
+            "example:InputQuantityShares": [
+                {
+                    "example:quantity": "https://rcycledemo.tvai.me/01/94064074000549/10/AYBbLLPG701005",
+                    "example:unitCode": "P1",
+                    "example:value": 70
+                }
+            ],
+            "example:PackagingIngredientDetails": [
+                {
+                    "example:typeCode": "PE-LLD",
+                    "example:unitCode": "P1",
+                    "example:value": 15.4
+                },
+                {
+                    "example:typeCode": "PE-HD",
+                    "example:unitCode": "P1",
+                    "example:value": 8.9
+                },
+                {
+                    "example:typeCode": "PE-LD",
+                    "example:unitCode": "P1",
+                    "example:value": 4.5
+                },
+                {
+                    "example:typeCode": "TIO2",
+                    "example:unitCode": "P1",
+                    "example:value": 1.2
+                }
+            ],
+            "example:biodegradability": false,
+            "example:foodApproval": true,
+            "ilmd": {
+                "example:applicationRange": "PE1",
+                "example:density": {
+                    "example:unitCode": "23",
+                    "example:value": 0.932
+                },
+                "rcycle:InsideSealingType": [
+                    {
+                        "rcycle:sealingType": "PE"
+                    }
+                ],
+                "rcycle:detailedName": "Lamination Film REC70-120-SEAL1",
+                "rcycle:insideSurfaceType": "PE-LLD",
+                "rcycle:outsideSurfaceType": "PE-HD",
+                "rcycle:productType": "WEB",
+                "rcycle:productionStep": "FILM_EXTRUSION",
+                "rcycle:reelDiameter": {
+                    "rcycle:unitCode": "MMT",
+                    "rcycle:value": 595
+                },
+                "rcycle:reelWeight": {
+                    "rcycle:unitCode": "KGM",
+                    "rcycle:value": 270
+                },
+                "rcycle:substrateWidth": {
+                    "rcycle:unitCode": "MMT",
+                    "rcycle:value": 1195
+                },
+                "rcycle:thickness": {
+                    "rcycle:unitCode": "4H",
+                    "rcycle:value": 120.2
+                },
+                "rcycle:treatedSide": "NONE",
+                "rcycle:windingCore": {
+                    "rcycle:unitCode": "INH",
+                    "rcycle:value": 6
+                },
+                "rcycle:windingCoreType": "paper"
+            },
+            "inputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000549/10/AYBbLLPG701005",
+                    "quantity": 450,
+                    "uom": "KGM"
+                }
+            ],
+            "outputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000464/10/AYRVHON0233008",
+                    "quantity": 2024,
+                    "uom": "MTR"
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000405/254/3"
+            },
+            "type": "TransformationEvent"
+        }
+    },
+    {
+        "level": 5,
+        "parent_id": "/01/94064074000266/10/YKcT4jUe5S066YUBipS6",
+        "child_id": "/01/94064074000266/10/AY7bMLPN751005",
+        "gtin": "94064074000266",
+        "lot": "AY7bMLPN751005",
+        "type": "Web",
+        "product_name": "Flexible Material (transparent)",
+        "detailed_name": "BOPE-PCR 5L-23",
+        "brand_id": "707e1207-9b33-4302-88bc-3c859e9cbb45",
+        "product_brand": "Various Packaging Materials and Components",
+        "sub_brand_name": null,
+        "primary_image": null,
+        "production_step": "SLITTING",
+        "production_step_desc": "Slitting",
+        "quantity_value": "2790.00",
+        "quantity_uom": "MTR",
+        "quantity_uom_desc": "m",
+        "Production Date": "2023-11-20T12:08:23.000Z",
+        "GLN": "4064074001501",
+        "GLN_Name": "Kampf GmbH, Wiehl, D",
+        "readPoint": "/414/4064074001501/254/1",
+        "readPointName": "Slitter 1",
+        "packaging_type": null,
+        "packaging_type_desc": null,
+        "packaging_type_long_desc": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_desc": null,
+        "content_of_packaging_long_desc": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": "WEB",
+        "product_type_desc": "Web",
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "0.83000",
+        "event_id": "ni:///sha-256;c538bce0ea60bc71e1a31610cf2b1bb16f9825eabcee4da5b936aabc428c0bda?ver=CBV2.0",
+        "event_body": {
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001501"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;c538bce0ea60bc71e1a31610cf2b1bb16f9825eabcee4da5b936aabc428c0bda?ver=CBV2.0",
+            "eventTime": "2023-11-20T12:08:23+01:00",
+            "eventTimeZoneOffset": "+01:00",
+            "example:InputQuantityShares": [
+                {
+                    "example:quantity": "https://rcycledemo.tvai.me/01/94064074000266/10/AYCbKLPq072008",
+                    "example:unitCode": "P1",
+                    "example:value": 100
+                }
+            ],
+            "ilmd": {
+                "rcycle:articleNumber": "608049",
+                "rcycle:detailedName": "BOPE-PCR 5L-23",
+                "rcycle:productType": "WEB",
+                "rcycle:productionStep": "SLITTING",
+                "rcycle:substrateWidth": {
+                    "rcycle:unitCode": "MMT",
+                    "rcycle:value": 1005
+                }
+            },
+            "inputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000266/10/AYCbKLPq072008",
+                    "quantity": 2797,
+                    "uom": "MTR"
+                }
+            ],
+            "outputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000266/10/AY7bMLPN751005",
+                    "quantity": 2790,
+                    "uom": "MTR"
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074001501/254/1"
+            },
+            "type": "TransformationEvent"
+        }
+    },
+    {
+        "level": 6,
+        "parent_id": "/01/94064074000266/10/AY7bMLPN751005",
+        "child_id": "/01/94064074000266/10/AYCbKLPq072008",
+        "gtin": "94064074000266",
+        "lot": "AYCbKLPq072008",
+        "type": "Web",
+        "product_name": "Flexible Material (transparent)",
+        "detailed_name": "BOPE-PCR 5L-23_Roll 0B2307311418",
+        "brand_id": "707e1207-9b33-4302-88bc-3c859e9cbb45",
+        "product_brand": "Various Packaging Materials and Components",
+        "sub_brand_name": null,
+        "primary_image": null,
+        "production_step": "FILM_EXTRUSION",
+        "production_step_desc": "Film Extrusion",
+        "quantity_value": "2797.00",
+        "quantity_uom": "MTR",
+        "quantity_uom_desc": "m",
+        "Production Date": "2023-08-01T16:00:00.000Z",
+        "GLN": "4064074002005",
+        "GLN_Name": "Brückner, Siegsdorf, D",
+        "readPoint": "/414/4064074002005/254/2",
+        "readPointName": "Production Line in R&D Center",
+        "packaging_type": null,
+        "packaging_type_desc": null,
+        "packaging_type_long_desc": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_desc": null,
+        "content_of_packaging_long_desc": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": "WEB",
+        "product_type_desc": "Web",
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": "PE1",
+        "application_range_desc": "PE - 0.2-5.0 g/10min at 2.16 kg/190 °C",
+        "application_range_long_desc": "PE for film extrusion and blow moulding (film, bottles, drums). Including blow moulding grades: HDPE 5-25 g/10min at 21.6 kg/190 °C and HMWPE 2-5 g/10min @21.6 kg/190 °C",
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "1.00000",
+        "event_id": "ni:///sha-256;d713d59534d92ac1d6698da84dfb381ab156e3872ee7a0adf3826ea981c77d7b?ver=CBV2.0",
+        "event_body": {
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074002005"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;d713d59534d92ac1d6698da84dfb381ab156e3872ee7a0adf3826ea981c77d7b?ver=CBV2.0",
+            "eventTime": "2023-08-01T16:00:00+01:00",
+            "eventTimeZoneOffset": "+01:00",
+            "example:ColourOfBasicMaterial": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS",
+                    "example:colourCodeValue": "TRANSPARENT_NC"
+                }
+            ],
+            "example:InputMaterialOrigin": [
+                {
+                    "example:typeCode": "PCR_M",
+                    "example:unitCode": "P1",
+                    "example:value": 0
+                }
+            ],
+            "example:InputQuantityShares": [
+                {
+                    "example:quantity": "https://rcycledemo.tvai.me/01/94064074000549/10/AYNbKLPm231007",
+                    "example:unitCode": "P1",
+                    "example:value": 30.9
+                }
+            ],
+            "example:PackagingIngredientDetails": [
+                {
+                    "example:typeCode": "PE-HD",
+                    "example:unitCode": "P1",
+                    "example:value": 26.8
+                },
+                {
+                    "example:typeCode": "PE-LLD",
+                    "example:unitCode": "P1",
+                    "example:value": 42.3
+                }
+            ],
+            "example:biodegradability": false,
+            "example:foodApproval": true,
+            "ilmd": {
+                "example:applicationRange": "PE1",
+                "example:density": {
+                    "example:unitCode": "23",
+                    "example:value": 0.933
+                },
+                "rcycle:detailedName": "BOPE-PCR 5L-23_Roll 0B2307311418",
+                "rcycle:productType": "WEB",
+                "rcycle:productionStep": "FILM_EXTRUSION",
+                "rcycle:thickness": {
+                    "rcycle:unitCode": "4H",
+                    "rcycle:value": 22
+                }
+            },
+            "inputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000549/10/AYNbKLPm231007",
+                    "quantity": 120,
+                    "uom": "KGM"
+                }
+            ],
+            "outputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000266/10/AYCbKLPq072008",
+                    "quantity": 2797,
+                    "uom": "MTR"
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074002005/254/2"
+            },
+            "type": "TransformationEvent"
+        }
+    },
+    {
+        "level": 6,
+        "parent_id": "/01/94064074000464/10/AYRVHON0233008",
+        "child_id": "/01/94064074000549/10/AYBbLLPG701005",
+        "gtin": "94064074000549",
+        "lot": "AYBbLLPG701005",
+        "type": "Pellets - PE",
+        "product_name": "Recyclate",
+        "detailed_name": "PE-LD 420-S grey",
+        "brand_id": null,
+        "product_brand": null,
+        "sub_brand_name": null,
+        "primary_image": "2c813eac-5554-4ff1-93e4-d6ed1905c0d5",
+        "production_step": "REGRANULATION",
+        "production_step_desc": "Regranulation",
+        "quantity_value": "36400.00",
+        "quantity_uom": "KGM",
+        "quantity_uom_desc": "kg",
+        "Production Date": "2023-05-22T00:00:00.000Z",
+        "GLN": "4064074000427",
+        "GLN_Name": "Vogt Plastic GmbH",
+        "readPoint": "/414/4064074000427/254/1",
+        "readPointName": "Recycling Line 1",
+        "packaging_type": null,
+        "packaging_type_desc": null,
+        "packaging_type_long_desc": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_desc": null,
+        "content_of_packaging_long_desc": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": "PELLETS",
+        "product_shape_desc": "Pellets",
+        "product_type": null,
+        "product_type_desc": null,
+        "product_class": "PE",
+        "product_class_group": "PLASTIC",
+        "product_class_desc": "PE",
+        "product_class_long_desc": "All types and mixtures of polyethylene polymers.\nAs a more precise specification of the PE types is often preferable, this code should only be used if there is a mixture of PE types, for example after recycling, or if the used PE types are not known more precisely.",
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": "0.80",
+        "mfr_uom": "GRM",
+        "mfr_uom_desc": "g",
+        "share": "0.70000",
+        "event_id": "ni:///sha-256;8d7813380e82052a955e4c2eeafd2df05b12ca1e611b30fbab03dc20714039d2?ver=CBV2.0",
+        "event_body": {
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000427"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;8d7813380e82052a955e4c2eeafd2df05b12ca1e611b30fbab03dc20714039d2?ver=CBV2.0",
+            "eventTime": "2023-05-22T00:00:00+02:00",
+            "eventTimeZoneOffset": "+02:00",
+            "example:InputQuantityShares": [
+                {
+                    "example:quantity": "https://rcycledemo.tvai.me/01/94064074001218/10/AYgbKLP3932005",
+                    "example:unitCode": "P1",
+                    "example:value": 100
+                }
+            ],
+            "example:biodegradability": false,
+            "example:colourCodeValue": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS"
+                }
+            ],
+            "example:density": {
+                "example:unitCode": "23",
+                "example:value": 0.94
+            },
+            "example:foodApproval": false,
+            "ilmd": {
+                "example:InputMaterialOrigin": [
+                    {
+                        "example:typeCode": "PCR_M",
+                        "example:unitCode": "P1",
+                        "example:value": 100
+                    }
+                ],
+                "rcycle:RecommendedUse": [
+                    {
+                        "rcycle:typeCode": "FILM_EXTRUSION"
+                    }
+                ],
+                "rcycle:condition": "/10 min @ 190 °C 2.16 kg",
+                "rcycle:detailedName": "PE-LD 420-S grey",
+                "rcycle:filtrationFineness": {
+                    "rcycle:unitCode": "4H",
+                    "rcycle:value": 40
+                },
+                "rcycle:internalBatch": "C010523051500",
+                "rcycle:mfr": {
+                    "rcycle:unitCode": "GRM",
+                    "rcycle:value": 0.8
+                },
+                "rcycle:norm": "DIN EN ISO 1133-1",
+                "rcycle:packagingUnit": "BIG_BAG",
+                "rcycle:packagingUnitNumber": 42,
+                "rcycle:productClass": "PE",
+                "rcycle:productShape": "PELLETS",
+                "rcycle:productionStep": "REGRANULATION"
+            },
+            "inputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074001218/10/AYgbKLP3932005",
+                    "quantity": 38000,
+                    "uom": "KGM"
+                }
+            ],
+            "outputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000549/10/AYBbLLPG701005",
+                    "quantity": 36400,
+                    "uom": "KGM"
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000427/254/1"
+            },
+            "type": "TransformationEvent"
+        }
+    },
+    {
+        "level": 7,
+        "parent_id": "/01/94064074000549/10/AYBbLLPG701005",
+        "child_id": "/01/94064074001218/10/AYgbKLP3932005",
+        "gtin": "94064074001218",
+        "lot": "AYgbKLP3932005",
+        "type": "Waste",
+        "product_name": "Sorted Waste",
+        "detailed_name": "DSD Fraction 310 (PE Flexibles u003eDIN A4)",
+        "brand_id": null,
+        "product_brand": null,
+        "sub_brand_name": null,
+        "primary_image": null,
+        "production_step": "SORTING",
+        "production_step_desc": "Sorting",
+        "quantity_value": "38000.00",
+        "quantity_uom": "KGM",
+        "quantity_uom_desc": "kg",
+        "Production Date": "2023-03-09T11:56:32.000Z",
+        "GLN": "4064074000358",
+        "GLN_Name": "Non-specific production site",
+        "readPoint": "/414/4064074000358/254/2",
+        "readPointName": "Non-specific production line",
+        "packaging_type": null,
+        "packaging_type_desc": null,
+        "packaging_type_long_desc": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_desc": null,
+        "content_of_packaging_long_desc": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": "WASTE",
+        "product_type_desc": "Waste",
+        "product_class": "PE",
+        "product_class_group": "PLASTIC",
+        "product_class_desc": "PE",
+        "product_class_long_desc": "All types and mixtures of polyethylene polymers.\nAs a more precise specification of the PE types is often preferable, this code should only be used if there is a mixture of PE types, for example after recycling, or if the used PE types are not known more precisely.",
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "1.00000",
+        "event_id": "ni:///sha-256;3de568566690ed35afd0f85bf9a8a47ba36694493f3fa9a60250dd738fb46873?ver=CBV2.0",
+        "event_body": {
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000358"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;3de568566690ed35afd0f85bf9a8a47ba36694493f3fa9a60250dd738fb46873?ver=CBV2.0",
+            "eventTime": "2023-03-09T11:56:32.000Z",
+            "eventTimeZoneOffset": "+01:00",
+            "example:ColourOfBasicMaterial": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS",
+                    "example:colourCodeValue": "DARK"
+                }
+            ],
+            "example:InputQuantityShares": [
+                {
+                    "example:quantity": "https://rcycledemo.tvai.me/01/94064074001201/10/AYRbKLPz982000",
+                    "example:unitCode": "P1",
+                    "example:value": 100
+                }
+            ],
+            "example:PackagingIngredientDetails": [
+                {
+                    "example:typeCode": "PE",
+                    "example:unitCode": "P1",
+                    "example:value": 100
+                }
+            ],
+            "example:biodegradability": false,
+            "example:foodApproval": false,
+            "ilmd": {
+                "rcycle:detailedName": "DSD Fraction 310 (PE Flexibles u003eDIN A4)",
+                "rcycle:packagingUnit": "BALE",
+                "rcycle:packagingUnitNumber": 54,
+                "rcycle:productClass": "PE",
+                "rcycle:productType": "WASTE",
+                "rcycle:productionStep": "SORTING"
+            },
+            "inputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074001201/10/AYRbKLPz982000",
+                    "quantity": 50000,
+                    "uom": "KGM"
+                }
+            ],
+            "outputQuantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074001218/10/AYgbKLP3932005",
+                    "quantity": 38000,
+                    "uom": "KGM"
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000358/254/2"
+            },
+            "type": "TransformationEvent"
+        }
+    },
+    {
+        "level": 7,
+        "parent_id": "/01/94064074000266/10/AYCbKLPq072008",
+        "child_id": "/01/94064074000549/10/AYNbKLPm231007",
+        "gtin": "94064074000549",
+        "lot": "AYNbKLPm231007",
+        "type": "Pellets - PE",
+        "product_name": "Recyclate",
+        "detailed_name": "PE-HD Recyclate",
+        "brand_id": null,
+        "product_brand": null,
+        "sub_brand_name": null,
+        "primary_image": "2c813eac-5554-4ff1-93e4-d6ed1905c0d5",
+        "production_step": "REGRANULATION",
+        "production_step_desc": "Regranulation",
+        "quantity_value": "10000.00",
+        "quantity_uom": "KGM",
+        "quantity_uom_desc": "kg",
+        "Production Date": "2023-07-01T13:55:22.000Z",
+        "GLN": "4064074000358",
+        "GLN_Name": "Non-specific production site",
+        "readPoint": "/414/4064074000358/254/1",
+        "readPointName": "Non-specific production line",
+        "packaging_type": null,
+        "packaging_type_desc": null,
+        "packaging_type_long_desc": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_desc": null,
+        "content_of_packaging_long_desc": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": "PELLETS",
+        "product_shape_desc": "Pellets",
+        "product_type": null,
+        "product_type_desc": null,
+        "product_class": "PE",
+        "product_class_group": "PLASTIC",
+        "product_class_desc": "PE",
+        "product_class_long_desc": "All types and mixtures of polyethylene polymers.\nAs a more precise specification of the PE types is often preferable, this code should only be used if there is a mixture of PE types, for example after recycling, or if the used PE types are not known more precisely.",
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": "0.30",
+        "mfr_uom": "GRM",
+        "mfr_uom_desc": "g",
+        "share": "0.30900",
+        "event_id": "ni:///sha-256;4f2813d1ec4b553ebdf2434c8c5d87d6f75778ac058213790ef0c926a41fe91a?ver=CBV2.0",
+        "event_body": {
+            "action": "ADD",
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000358"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;4f2813d1ec4b553ebdf2434c8c5d87d6f75778ac058213790ef0c926a41fe91a?ver=CBV2.0",
+            "eventTime": "2023-07-01T13:55:22+01:00",
+            "eventTimeZoneOffset": "+02:00",
+            "example:ColourOfBasicMaterial": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS",
+                    "example:colourCodeValue": "TRANSPARENT_NC"
+                }
+            ],
+            "example:PackagingIngredientDetails": [
+                {
+                    "example:typeCode": "PE-HD",
+                    "example:unitCode": "P1",
+                    "example:value": 100
+                }
+            ],
+            "example:biodegradability": false,
+            "example:density": {
+                "example:unitCode": "23",
+                "example:value": 0.94
+            },
+            "example:foodApproval": false,
+            "ilmd": {
+                "rcycle:condition": "/10 min @ 190 °C 2.16 kg",
+                "rcycle:detailedName": "PE-HD Recyclate",
+                "rcycle:mfr": {
+                    "rcycle:unitCode": "GRM",
+                    "rcycle:value": 0.3
+                },
+                "rcycle:norm": "DIN EN ISO 1133-1",
+                "rcycle:packagingUnit": "BIG_BAG",
+                "rcycle:packagingUnitNumber": 10,
+                "rcycle:productClass": "PE",
+                "rcycle:productShape": "PELLETS",
+                "rcycle:productionStep": "REGRANULATION"
+            },
+            "quantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074000549/10/AYNbKLPm231007",
+                    "quantity": 10000,
+                    "uom": "KGM"
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000358/254/1"
+            },
+            "type": "ObjectEvent"
+        }
+    },
+    {
+        "level": 8,
+        "parent_id": "/01/94064074001218/10/AYgbKLP3932005",
+        "child_id": "/01/94064074001201/10/AYRbKLPz982000",
+        "gtin": "94064074001201",
+        "lot": "AYRbKLPz982000",
+        "type": "Waste",
+        "product_name": "Collected Waste",
+        "detailed_name": "Yellow Bag Collection",
+        "brand_id": null,
+        "product_brand": null,
+        "sub_brand_name": null,
+        "primary_image": "ef202d92-0653-4b30-9811-9eafc9498624",
+        "production_step": "COLLECTING",
+        "production_step_desc": "Collecting",
+        "quantity_value": "50000.00",
+        "quantity_uom": "KGM",
+        "quantity_uom_desc": "kg",
+        "Production Date": "2023-02-11T10:34:37.000Z",
+        "GLN": "4064074000358",
+        "GLN_Name": "Non-specific production site",
+        "readPoint": "/414/4064074000358/254/2",
+        "readPointName": "Non-specific production line",
+        "packaging_type": null,
+        "packaging_type_desc": null,
+        "packaging_type_long_desc": null,
+        "packaging_level": null,
+        "packaging_level_desc": null,
+        "packaging_level_long_desc": null,
+        "content_of_packaging": null,
+        "content_of_packaging_desc": null,
+        "content_of_packaging_long_desc": null,
+        "unit_length": null,
+        "unit_length_uom": null,
+        "unit_length_uom_desc": null,
+        "unit_width": null,
+        "unit_width_uom": null,
+        "unit_width_uom_desc": null,
+        "unit_height": null,
+        "unit_height_uom": null,
+        "unit_height_uom_desc": null,
+        "unit_weight": null,
+        "unit_weight_uom": null,
+        "unit_weight_uom_desc": null,
+        "filling_volume": null,
+        "filling_volume_uom": null,
+        "filling_volume_uom_desc": null,
+        "product_shape": null,
+        "product_shape_desc": null,
+        "product_type": "WASTE",
+        "product_type_desc": "Waste",
+        "product_class": null,
+        "product_class_group": null,
+        "product_class_desc": null,
+        "product_class_long_desc": null,
+        "application_range": null,
+        "application_range_desc": null,
+        "application_range_long_desc": null,
+        "mfr": null,
+        "mfr_uom": null,
+        "mfr_uom_desc": null,
+        "share": "1.00000",
+        "event_id": "ni:///sha-256;a712c23b13fed1f883957403db7389d48ab58e3baa1c69c062b842753a2c860a?ver=CBV2.0",
+        "event_body": {
+            "action": "ADD",
+            "bizLocation": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000358"
+            },
+            "bizStep": "commissioning",
+            "disposition": "active",
+            "eventID": "ni:///sha-256;a712c23b13fed1f883957403db7389d48ab58e3baa1c69c062b842753a2c860a?ver=CBV2.0",
+            "eventTime": "2023-02-11T10:34:37+01:00",
+            "eventTimeZoneOffset": "+01:00",
+            "example:colourCodeValue": [
+                {
+                    "example:colourCodeListCode": "CIRCULAR_PLASTICS"
+                }
+            ],
+            "ilmd": {
+                "rcycle:detailedName": "Yellow Bag Collection",
+                "rcycle:internalBatch": "123-4588",
+                "rcycle:packagingUnit": "VEHICLE_CHANGE_CONTAINER",
+                "rcycle:packagingUnitNumber": 8,
+                "rcycle:productType": "WASTE",
+                "rcycle:productionStep": "COLLECTING",
+                "rcycle:wasteCategory": "15 01 00",
+                "rcycle:wasteCollectionType": "MIXED_COLLECTION",
+                "rcycle:wasteOrigin": "PCR",
+                "rcycle:wasteOriginSector": "HOUSEHOLD_PACKAGING"
+            },
+            "quantityList": [
+                {
+                    "epcClass": "https://rcycledemo.tvai.me/01/94064074001201/10/AYRbKLPz982000",
+                    "quantity": 50000,
+                    "uom": "KGM"
+                }
+            ],
+            "readPoint": {
+                "id": "https://rcycledemo.tvai.me/414/4064074000358/254/2"
+            },
+            "type": "ObjectEvent"
+        }
+    }
+]
