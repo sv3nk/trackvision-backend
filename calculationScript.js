@@ -1215,7 +1215,7 @@ var treeData = [
         "brand_id": null,
         "product_brand": null,
         "sub_brand_name": null,
-        "primary_image": "2c813eac-5554-4ff1-93e4-d6ed1905c0d5",
+        "primary_image": "08877fca-beb1-409e-a1b2-0ae5dd66a9e7",
         "production_step": "REGRANULATION",
         "production_step_desc": "Regranulation",
         "quantity_value": "36400.00",
@@ -1356,7 +1356,7 @@ var treeData = [
         "brand_id": null,
         "product_brand": null,
         "sub_brand_name": null,
-        "primary_image": null,
+        "primary_image": "5815af23-3283-4bcf-ae6f-7cfb6cea49a4",
         "production_step": "SORTING",
         "production_step_desc": "Sorting",
         "quantity_value": "38000.00",
@@ -1478,7 +1478,7 @@ var treeData = [
         "brand_id": null,
         "product_brand": null,
         "sub_brand_name": null,
-        "primary_image": "2c813eac-5554-4ff1-93e4-d6ed1905c0d5",
+        "primary_image": "08877fca-beb1-409e-a1b2-0ae5dd66a9e7",
         "production_step": "REGRANULATION",
         "production_step_desc": "Regranulation",
         "quantity_value": "10000.00",
@@ -1597,7 +1597,7 @@ var treeData = [
         "brand_id": null,
         "product_brand": null,
         "sub_brand_name": null,
-        "primary_image": "ef202d92-0653-4b30-9811-9eafc9498624",
+        "primary_image": "3ce07f28-c888-4925-84aa-c3a0eb12fea8",
         "production_step": "COLLECTING",
         "production_step_desc": "Collecting",
         "quantity_value": "50000.00",
@@ -3007,7 +3007,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["product_class"],["product_class_group"],["product_class_desc"],["product_class_long_desc"]]
+            "target": [["product_class"],["product_class_group"],["product_class_desc"],["product_class_long_desc"]],
+            "name": [["value"],["value_add"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "productClass"
@@ -3021,7 +3022,8 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]]
+            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "applicationRange"
@@ -3035,7 +3037,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]]
+            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "applicationRange"
@@ -3049,7 +3052,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]]
+            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "applicationRange"
@@ -3063,7 +3067,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]]
+            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "applicationRange"
@@ -4043,7 +4048,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"],["quantity_uom"]]
+            "target": [["quantity_value"],["quantity_uom"]],
+            "name": [["value"],["uom"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -4057,7 +4063,8 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"],["quantity_uom"]]
+            "target": [["quantity_value"],["quantity_uom"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -4071,7 +4078,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"],["quantity_uom"]]
+            "target": [["quantity_value"],["quantity_uom"]],
+            "name": [["value"],["uom"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -4085,7 +4093,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"],["quantity_uom"]]
+            "target": [["quantity_value"],["quantity_uom"]],
+            "name": [["value"],["uom"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -4099,7 +4108,8 @@ var calculationRules = [
         "production_step": "Plastic raw material producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"],["quantity_uom"]]
+            "target": [["quantity_value"],["quantity_uom"]],
+            "name": [["value"],["uom"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -4113,7 +4123,8 @@ var calculationRules = [
         "production_step": "Waste processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"],["quantity_uom"]]
+            "target": [["quantity_value"],["quantity_uom"]],
+            "name": [["value"],["uom"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -4211,7 +4222,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["packaging_type"],["packaging_type_desc"],["packaging_type_long_desc"]]
+            "target": [["packaging_type"],["packaging_type_desc"],["packaging_type_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "packagingType"
@@ -4225,7 +4237,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["packaging_level"],["packaging_level_desc"],["packaging_level_long_desc"]]
+            "target": [["packaging_level"],["packaging_level_desc"],["packaging_level_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "packagingLevel"
@@ -4239,7 +4252,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["content_of_packaging"],["content_of_packaging_desc"],["content_of_packaging_long_desc"]]
+            "target": [["content_of_packaging"],["content_of_packaging_desc"],["content_of_packaging_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "contentOfPackaging"
@@ -5130,7 +5144,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]]
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitLength"
@@ -5144,7 +5159,8 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]]
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitLength"
@@ -5158,7 +5174,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]]
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitLength"
@@ -5172,7 +5189,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]]
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitLength"
@@ -5186,7 +5204,8 @@ var calculationRules = [
         "production_step": "Plastic raw material producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]]
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitLength"
@@ -5200,7 +5219,8 @@ var calculationRules = [
         "production_step": "Waste processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]]
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitLength"
@@ -5214,7 +5234,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]]
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitWidth"
@@ -5228,7 +5249,8 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]]
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitWidth"
@@ -5242,7 +5264,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]]
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         }, 
         "rule_no": null,
         "attribute": "unitWidth"
@@ -5256,7 +5279,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]]
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         }, 
         "rule_no": null,
         "attribute": "unitWidth"
@@ -5270,7 +5294,8 @@ var calculationRules = [
         "production_step": "Plastic raw material producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]]
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         }, 
         "rule_no": null,
         "attribute": "unitWidth"
@@ -5284,7 +5309,8 @@ var calculationRules = [
         "production_step": "Waste processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]]
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         }, 
         "rule_no": null,
         "attribute": "unitWidth"
@@ -5298,7 +5324,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]]
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitHeight"
@@ -5312,7 +5339,8 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]]
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitHeight"
@@ -5326,7 +5354,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]]
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitHeight"
@@ -5340,7 +5369,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]]
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitHeight"
@@ -5354,7 +5384,8 @@ var calculationRules = [
         "production_step": "Plastic raw material producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]]
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitHeight"
@@ -5368,7 +5399,8 @@ var calculationRules = [
         "production_step": "Waste processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]]
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitHeight"
@@ -5382,7 +5414,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]]
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "fillingVolume"
@@ -5396,7 +5429,8 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]]
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "fillingVolume"
@@ -5410,7 +5444,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]]
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "fillingVolume"
@@ -5424,7 +5459,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]]
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "fillingVolume"
@@ -5438,7 +5474,8 @@ var calculationRules = [
         "production_step": "Plastic raw material producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]]
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "fillingVolume"
@@ -5452,7 +5489,8 @@ var calculationRules = [
         "production_step": "Waste processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]]
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "fillingVolume"
@@ -5466,7 +5504,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]]
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "mfr"
@@ -5480,7 +5519,8 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]]
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         }, 
         "rule_no": null,
         "attribute": "mfr"
@@ -5494,7 +5534,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]]
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "mfr"
@@ -5508,7 +5549,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]]
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "mfr"
@@ -5522,7 +5564,8 @@ var calculationRules = [
         "production_step": "Plastic raw material producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]]
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "mfr"
@@ -5536,7 +5579,8 @@ var calculationRules = [
         "production_step": "Waste processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]]
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "mfr"
@@ -5702,9 +5746,9 @@ function calculateThickness(dataEntry) {
         }
     }
 
-    thicknessObject.thickness = totalThickness;
-    thicknessObject.thickness_uom = '4H';
-    thicknessObject.thickness_uom_desc = 'µm';
+    thicknessObject.value = totalThickness;
+    thicknessObject.uom = '4H';
+    thicknessObject.uom_desc = 'µm';
     return thicknessObject;
 }
 
@@ -5773,9 +5817,10 @@ function calculateSurfaceWeight(dataEntry) {
         }
     }
 
-    surfaceWeightObject.surface_weight = totalSurfaceWeight;
-    surfaceWeightObject.surface_weight_uom = 'GM';
-    surfaceWeightObject.surface_weight_uom_desc = 'g/m²';
+    surfaceWeightObject.value = totalSurfaceWeight;
+    surfaceWeightObject.uom = 'GM';
+    surfaceWeightObject.uom_desc = 'g/m²';
+
     return surfaceWeightObject;
 }
 
@@ -5806,9 +5851,9 @@ function calculateUnitWeight(dataEntry) {
         unitCodeUomDesc = 'kg'
     }
 
-    unitWeightObject.unit_weight = unitWeight;
-    unitWeightObject.unit_weight_uom = unitCode;
-    unitWeightObject.unit_weight_uom_desc = unitCodeUomDesc;
+    unitWeightObject.value = unitWeight;
+    unitWeightObject.uom = unitCode;
+    unitWeightObject.uom_desc = unitCodeUomDesc;
 
     return unitWeightObject;
 }
@@ -5820,7 +5865,7 @@ function calculateFoodApproval(dataEntry) {
     var foodApprovalFromEvent = null;
     var foodApprovalFromChildren = true;
 
-    if(dataEntry.event_body['example:foodApproval']) {
+    if(dataEntry.event_body['example:foodApproval'] != undefined) {
         foodApprovalFromEvent = dataEntry.event_body['example:foodApproval']
     }
 
@@ -5845,7 +5890,11 @@ function calculateFoodApproval(dataEntry) {
                     // If its true, loop continues through all children
                     // If its false, loop stops and foodApprovalFromChildren remains false
                     // If its null, loop stops and foodApprovalFromChildren remains null
-                    foodApprovalFromChildren = child['ingredientDetails'].foodApproval;
+                    if('ingredientDetails' in child && 'foodApproval' in child['ingredientDetails']) {
+                        foodApprovalFromChildren = child['ingredientDetails'].foodApproval['value'];
+                    } else {
+                        foodApprovalFromChildren = null;
+                    }
                     break;
                 }
             }
@@ -5902,7 +5951,12 @@ function calculateBioDegradability(dataEntry) {
                     // If its true, loop continues through all children
                     // If its false, loop stops and bioDegradabilityFromChildren remains false
                     // If its null, loop stops and bioDegradabilityFromChildren remains null
-                    bioDegradabilityFromChildren = child['ingredientDetails'].biodegradability;
+                    if('ingredientDetails' in child && 'biodegradability' in child['ingredientDetails']) {
+                        bioDegradabilityFromChildren = child['ingredientDetails'].biodegradability['value'];
+                    } else {
+                        bioDegradabilityFromChildren = null;
+                    }
+
                     break;
                 }
             }
@@ -5987,7 +6041,8 @@ function calculateAttribute(calculationRule, currentElement) {
 
             if (calculationRule.target[x].length == 1) {
 
-                calculatedAttribute[calculationRule.target[x][0]] = currentElement[calculationRule.target[x][0]]
+                //calculatedAttribute[calculationRule.target[x][0]] = currentElement[calculationRule.target[x][0]]
+                calculatedAttribute[calculationRule.name[x][0]] = currentElement[calculationRule.target[x][0]]
             } else if (calculationRule.target[x].length > 1) {
 
                 var calculatedAttributeTemp = null;
@@ -5997,7 +6052,7 @@ function calculateAttribute(calculationRule, currentElement) {
                     calculatedAttributeTemp = calculatedAttributeTemp[calculationRule.target[x][y]]
                 }
 
-                calculatedAttribute[calculationRule.target[x][calculationRule.target[x].length - 1]] = calculatedAttributeTemp;
+                calculatedAttribute[calculationRule.name[x][0]] = calculatedAttributeTemp;
 
             }
         }
@@ -6060,16 +6115,23 @@ function createOutputData() {
 
             if (calculationRule != null) {
                 var calculationOutput = calculateAttribute(calculationRule, currentElement);
+
                 var calculatedObject = {};
-                calculatedObject[currentAttributeName] = calculationOutput;
 
-                //outputObject[currentAttributeName] = calculationOutput;
-                // outputObject[currentAttributeGroup] = {
-                //     ...outputObject[currentAttributeGroup],
-                //     ...calculatedObject,
-                // }
+                if(typeof calculationOutput === 'object') {
+                    Object.assign(calculatedObject, calculationOutput)
+                } else {
+                    calculatedObject.value = calculationOutput
+                }
 
-                outputObject[currentAttributeGroup][currentAttributeName] = calculationOutput;
+                calculatedObject.displayName = currentAttribute.description;
+                calculatedObject.order = currentAttribute.order;
+
+                if('value' in calculatedObject) {
+                    if(calculatedObject.value != null) {
+                        outputObject[currentAttributeGroup][currentAttributeName] = calculatedObject;
+                    }
+                }
             }
         }
 

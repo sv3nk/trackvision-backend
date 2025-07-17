@@ -1,243 +1,346 @@
 [
     {
         "id": "/01/94064074001201/10/AYRbKLPz982000",
-        "primaryImage": "ef202d92-0653-4b30-9811-9eafc9498624",
+        "primaryImage": "3ce07f28-c888-4925-84aa-c3a0eb12fea8",
         "share": "1.00000",
         "lotOverview": {
-            "product_name": "Collected Waste",
-            "gtin": "94064074001201",
-            "articleNumber": null,
-            "product_brand": null,
-            "detailedName": "Yellow Bag Collection",
-            "lot": "AYRbKLPz982000",
+            "product_name": {
+                "value": "Collected Waste",
+                "displayName": "Product",
+                "order": 1
+            },
+            "gtin": {
+                "value": "94064074001201",
+                "displayName": "GTIN",
+                "order": 2
+            },
+            "detailedName": {
+                "value": "Yellow Bag Collection",
+                "displayName": "Name",
+                "order": 5
+            },
+            "lot": {
+                "value": "AYRbKLPz982000",
+                "displayName": "Lot ID",
+                "order": 6
+            },
             "lotQuantity": {
-                "quantity_value": "50000.00",
-                "quantity_uom": "KGM"
+                "value": "50000.00",
+                "uom": "KGM",
+                "displayName": "Lot Quantity",
+                "order": 7
             }
         },
         "productionDetails": {
-            "productionStep": "Collecting",
-            "eventTime": "2023-02-11T10:34:37+01:00",
-            "bizLocationName": "Non-specific production site",
-            "bizLocation": "4064074000358",
-            "readPointName": "Non-specific production line",
-            "readPoint": "/414/4064074000358/254/2",
-            "internalBatch": "123-4588"
-        },
-        "basicProperties": {
-            "objectForm": null,
-            "unitLength": {
-                "unit_length": null,
-                "unit_length_uom": null,
-                "unit_length_uom_desc": null
+            "productionStep": {
+                "value": "Collecting",
+                "displayName": "Production Step",
+                "order": 1
             },
-            "unitWidth": {
-                "unit_width": null,
-                "unit_width_uom": null,
-                "unit_width_uom_desc": null
+            "eventTime": {
+                "value": "2023-02-11T10:34:37+01:00",
+                "displayName": "Production Time",
+                "order": 2
             },
-            "unitHeight": {
-                "unit_height": null,
-                "unit_height_uom": null,
-                "unit_height_uom_desc": null
+            "bizLocationName": {
+                "value": "Non-specific production site",
+                "displayName": "Production Location",
+                "order": 3
             },
-            "fillingVolume": {
-                "filling_volume": null,
-                "filling_volume_uom": null,
-                "filling_volume_uom_desc": null
+            "bizLocation": {
+                "value": "4064074000358",
+                "displayName": "GLN",
+                "order": 4
             },
-            "mfr": {
-                "mfr": null,
-                "mfr_uom": null,
-                "mfr_uom_desc": null
+            "readPointName": {
+                "value": "Non-specific production line",
+                "displayName": "Machine Name",
+                "order": 5
+            },
+            "readPoint": {
+                "value": "/414/4064074000358/254/2",
+                "displayName": "GLN",
+                "order": 6
+            },
+            "internalBatch": {
+                "value": "123-4588",
+                "displayName": "Internal Batch",
+                "order": 7
             }
         },
+        "basicProperties": {},
         "advancedProperties": {},
-        "ingredientDetails": {
-            "biodegradability": null,
-            "foodApproval": null
-        },
+        "ingredientDetails": {},
         "wasteDetails": {}
     },
     {
         "id": "/01/94064074000549/10/AYNbKLPm231007",
-        "primaryImage": "2c813eac-5554-4ff1-93e4-d6ed1905c0d5",
+        "primaryImage": "08877fca-beb1-409e-a1b2-0ae5dd66a9e7",
         "share": "0.30900",
         "lotOverview": {
-            "product_name": "Recyclate",
-            "gtin": "94064074000549",
-            "articleNumber": null,
-            "product_brand": null,
-            "detailedName": "PE-HD Recyclate",
-            "lot": "AYNbKLPm231007",
+            "product_name": {
+                "value": "Recyclate",
+                "displayName": "Product",
+                "order": 1
+            },
+            "gtin": {
+                "value": "94064074000549",
+                "displayName": "GTIN",
+                "order": 2
+            },
+            "detailedName": {
+                "value": "PE-HD Recyclate",
+                "displayName": "Name",
+                "order": 5
+            },
+            "lot": {
+                "value": "AYNbKLPm231007",
+                "displayName": "Lot ID",
+                "order": 6
+            },
             "lotQuantity": {
-                "quantity_value": "10000.00",
-                "quantity_uom": "KGM"
+                "value": "10000.00",
+                "uom": "KGM",
+                "displayName": "Lot Quantity",
+                "order": 7
             }
         },
         "productionDetails": {
-            "productionStep": "Regranulation",
-            "eventTime": "2023-07-01T13:55:22+01:00",
-            "bizLocationName": "Non-specific production site",
-            "bizLocation": "4064074000358",
-            "readPointName": "Non-specific production line",
-            "readPoint": "/414/4064074000358/254/1",
-            "internalBatch": null
+            "productionStep": {
+                "value": "Regranulation",
+                "displayName": "Production Step",
+                "order": 1
+            },
+            "eventTime": {
+                "value": "2023-07-01T13:55:22+01:00",
+                "displayName": "Production Time",
+                "order": 2
+            },
+            "bizLocationName": {
+                "value": "Non-specific production site",
+                "displayName": "Production Location",
+                "order": 3
+            },
+            "bizLocation": {
+                "value": "4064074000358",
+                "displayName": "GLN",
+                "order": 4
+            },
+            "readPointName": {
+                "value": "Non-specific production line",
+                "displayName": "Machine Name",
+                "order": 5
+            },
+            "readPoint": {
+                "value": "/414/4064074000358/254/1",
+                "displayName": "GLN",
+                "order": 6
+            }
         },
         "basicProperties": {
-            "objectForm": null,
-            "unitLength": {
-                "unit_length": null,
-                "unit_length_uom": null,
-                "unit_length_uom_desc": null
+            "productShape": {
+                "value": "Pellets",
+                "displayName": "Product Shape",
+                "order": 11
             },
-            "unitWidth": {
-                "unit_width": null,
-                "unit_width_uom": null,
-                "unit_width_uom_desc": null
-            },
-            "unitHeight": {
-                "unit_height": null,
-                "unit_height_uom": null,
-                "unit_height_uom_desc": null
-            },
-            "fillingVolume": {
-                "filling_volume": null,
-                "filling_volume_uom": null,
-                "filling_volume_uom_desc": null
-            },
-            "productShape": "Pellets",
             "mfr": {
-                "mfr": "0.30",
-                "mfr_uom": "GRM",
-                "mfr_uom_desc": "g"
+                "value": "0.30",
+                "uom": "GRM",
+                "uom_desc": "g",
+                "displayName": "MFR",
+                "order": 18
             }
         },
         "advancedProperties": {},
         "ingredientDetails": {
-            "biodegradability": false,
-            "foodApproval": null
+            "biodegradability": {
+                "value": false,
+                "displayName": "Biodegradability",
+                "order": 6
+            },
+            "foodApproval": {
+                "value": false,
+                "displayName": "Food Approval",
+                "order": 7
+            }
         },
         "wasteDetails": {}
     },
     {
         "id": "/01/94064074001218/10/AYgbKLP3932005",
-        "primaryImage": null,
+        "primaryImage": "5815af23-3283-4bcf-ae6f-7cfb6cea49a4",
         "share": "1.00000",
         "lotOverview": {
-            "product_name": "Sorted Waste",
-            "gtin": "94064074001218",
-            "articleNumber": null,
-            "product_brand": null,
-            "detailedName": "DSD Fraction 310 (PE Flexibles u003eDIN A4)",
-            "lot": "AYgbKLP3932005",
+            "product_name": {
+                "value": "Sorted Waste",
+                "displayName": "Product",
+                "order": 1
+            },
+            "gtin": {
+                "value": "94064074001218",
+                "displayName": "GTIN",
+                "order": 2
+            },
+            "detailedName": {
+                "value": "DSD Fraction 310 (PE Flexibles u003eDIN A4)",
+                "displayName": "Name",
+                "order": 5
+            },
+            "lot": {
+                "value": "AYgbKLP3932005",
+                "displayName": "Lot ID",
+                "order": 6
+            },
             "lotQuantity": {
-                "quantity_value": "38000.00",
-                "quantity_uom": "KGM"
+                "value": "38000.00",
+                "uom": "KGM",
+                "displayName": "Lot Quantity",
+                "order": 7
             }
         },
         "productionDetails": {
-            "productionStep": "Sorting",
-            "eventTime": "2023-03-09T11:56:32.000Z",
-            "bizLocationName": "Non-specific production site",
-            "bizLocation": "4064074000358",
-            "readPointName": "Non-specific production line",
-            "readPoint": "/414/4064074000358/254/2",
-            "internalBatch": null
-        },
-        "basicProperties": {
-            "objectForm": null,
-            "unitLength": {
-                "unit_length": null,
-                "unit_length_uom": null,
-                "unit_length_uom_desc": null
+            "productionStep": {
+                "value": "Sorting",
+                "displayName": "Production Step",
+                "order": 1
             },
-            "unitWidth": {
-                "unit_width": null,
-                "unit_width_uom": null,
-                "unit_width_uom_desc": null
+            "eventTime": {
+                "value": "2023-03-09T11:56:32.000Z",
+                "displayName": "Production Time",
+                "order": 2
             },
-            "unitHeight": {
-                "unit_height": null,
-                "unit_height_uom": null,
-                "unit_height_uom_desc": null
+            "bizLocationName": {
+                "value": "Non-specific production site",
+                "displayName": "Production Location",
+                "order": 3
             },
-            "fillingVolume": {
-                "filling_volume": null,
-                "filling_volume_uom": null,
-                "filling_volume_uom_desc": null
+            "bizLocation": {
+                "value": "4064074000358",
+                "displayName": "GLN",
+                "order": 4
             },
-            "mfr": {
-                "mfr": null,
-                "mfr_uom": null,
-                "mfr_uom_desc": null
+            "readPointName": {
+                "value": "Non-specific production line",
+                "displayName": "Machine Name",
+                "order": 5
+            },
+            "readPoint": {
+                "value": "/414/4064074000358/254/2",
+                "displayName": "GLN",
+                "order": 6
             }
         },
+        "basicProperties": {},
         "advancedProperties": {},
         "ingredientDetails": {
-            "biodegradability": false,
-            "foodApproval": null
+            "biodegradability": {
+                "value": false,
+                "displayName": "Biodegradability",
+                "order": 6
+            },
+            "foodApproval": {
+                "value": false,
+                "displayName": "Food Approval",
+                "order": 7
+            }
         },
         "wasteDetails": {}
     },
     {
         "id": "/01/94064074000549/10/AYBbLLPG701005",
-        "primaryImage": "2c813eac-5554-4ff1-93e4-d6ed1905c0d5",
+        "primaryImage": "08877fca-beb1-409e-a1b2-0ae5dd66a9e7",
         "share": "0.70000",
         "lotOverview": {
-            "product_name": "Recyclate",
-            "gtin": "94064074000549",
-            "articleNumber": null,
-            "product_brand": null,
-            "detailedName": "PE-LD 420-S grey",
-            "lot": "AYBbLLPG701005",
+            "product_name": {
+                "value": "Recyclate",
+                "displayName": "Product",
+                "order": 1
+            },
+            "gtin": {
+                "value": "94064074000549",
+                "displayName": "GTIN",
+                "order": 2
+            },
+            "detailedName": {
+                "value": "PE-LD 420-S grey",
+                "displayName": "Name",
+                "order": 5
+            },
+            "lot": {
+                "value": "AYBbLLPG701005",
+                "displayName": "Lot ID",
+                "order": 6
+            },
             "lotQuantity": {
-                "quantity_value": "36400.00",
-                "quantity_uom": "KGM"
+                "value": "36400.00",
+                "uom": "KGM",
+                "displayName": "Lot Quantity",
+                "order": 7
             }
         },
         "productionDetails": {
-            "productionStep": "Regranulation",
-            "eventTime": "2023-05-22T00:00:00+02:00",
-            "bizLocationName": "Vogt Plastic GmbH",
-            "bizLocation": "4064074000427",
-            "readPointName": "Recycling Line 1",
-            "readPoint": "/414/4064074000427/254/1",
-            "internalBatch": "C010523051500"
+            "productionStep": {
+                "value": "Regranulation",
+                "displayName": "Production Step",
+                "order": 1
+            },
+            "eventTime": {
+                "value": "2023-05-22T00:00:00+02:00",
+                "displayName": "Production Time",
+                "order": 2
+            },
+            "bizLocationName": {
+                "value": "Vogt Plastic GmbH",
+                "displayName": "Production Location",
+                "order": 3
+            },
+            "bizLocation": {
+                "value": "4064074000427",
+                "displayName": "GLN",
+                "order": 4
+            },
+            "readPointName": {
+                "value": "Recycling Line 1",
+                "displayName": "Machine Name",
+                "order": 5
+            },
+            "readPoint": {
+                "value": "/414/4064074000427/254/1",
+                "displayName": "GLN",
+                "order": 6
+            },
+            "internalBatch": {
+                "value": "C010523051500",
+                "displayName": "Internal Batch",
+                "order": 7
+            }
         },
         "basicProperties": {
-            "objectForm": null,
-            "unitLength": {
-                "unit_length": null,
-                "unit_length_uom": null,
-                "unit_length_uom_desc": null
+            "productShape": {
+                "value": "Pellets",
+                "displayName": "Product Shape",
+                "order": 11
             },
-            "unitWidth": {
-                "unit_width": null,
-                "unit_width_uom": null,
-                "unit_width_uom_desc": null
-            },
-            "unitHeight": {
-                "unit_height": null,
-                "unit_height_uom": null,
-                "unit_height_uom_desc": null
-            },
-            "fillingVolume": {
-                "filling_volume": null,
-                "filling_volume_uom": null,
-                "filling_volume_uom_desc": null
-            },
-            "productShape": "Pellets",
             "mfr": {
-                "mfr": "0.80",
-                "mfr_uom": "GRM",
-                "mfr_uom_desc": "g"
+                "value": "0.80",
+                "uom": "GRM",
+                "uom_desc": "g",
+                "displayName": "MFR",
+                "order": 18
             }
         },
         "advancedProperties": {},
         "ingredientDetails": {
-            "biodegradability": false,
-            "foodApproval": null
+            "biodegradability": {
+                "value": false,
+                "displayName": "Biodegradability",
+                "order": 6
+            },
+            "foodApproval": {
+                "value": false,
+                "displayName": "Food Approval",
+                "order": 7
+            }
         },
         "wasteDetails": {}
     },
@@ -246,68 +349,98 @@
         "primaryImage": null,
         "share": "1.00000",
         "lotOverview": {
-            "product_name": "Flexible Material (transparent)",
-            "gtin": "94064074000266",
-            "articleNumber": null,
-            "product_brand": "Various Packaging Materials and Components",
-            "detailedName": "BOPE-PCR 5L-23_Roll 0B2307311418",
-            "lot": "AYCbKLPq072008",
+            "product_name": {
+                "value": "Flexible Material (transparent)",
+                "displayName": "Product",
+                "order": 1
+            },
+            "gtin": {
+                "value": "94064074000266",
+                "displayName": "GTIN",
+                "order": 2
+            },
+            "product_brand": {
+                "value": "Various Packaging Materials and Components",
+                "displayName": "Brand",
+                "order": 4
+            },
+            "detailedName": {
+                "value": "BOPE-PCR 5L-23_Roll 0B2307311418",
+                "displayName": "Name",
+                "order": 5
+            },
+            "lot": {
+                "value": "AYCbKLPq072008",
+                "displayName": "Lot ID",
+                "order": 6
+            },
             "lotQuantity": {
-                "quantity_value": "2797.00",
-                "quantity_uom": "MTR"
+                "value": "2797.00",
+                "uom": "MTR",
+                "displayName": "Lot Quantity",
+                "order": 7
             }
         },
         "productionDetails": {
-            "productionStep": "Film Extrusion",
-            "eventTime": "2023-08-01T16:00:00+01:00",
-            "bizLocationName": "Brückner, Siegsdorf, D",
-            "bizLocation": "4064074002005",
-            "readPointName": "Production Line in R&D Center",
-            "readPoint": "/414/4064074002005/254/2",
-            "internalBatch": null
+            "productionStep": {
+                "value": "Film Extrusion",
+                "displayName": "Production Step",
+                "order": 1
+            },
+            "eventTime": {
+                "value": "2023-08-01T16:00:00+01:00",
+                "displayName": "Production Time",
+                "order": 2
+            },
+            "bizLocationName": {
+                "value": "Brückner, Siegsdorf, D",
+                "displayName": "Production Location",
+                "order": 3
+            },
+            "bizLocation": {
+                "value": "4064074002005",
+                "displayName": "GLN",
+                "order": 4
+            },
+            "readPointName": {
+                "value": "Production Line in R&D Center",
+                "displayName": "Machine Name",
+                "order": 5
+            },
+            "readPoint": {
+                "value": "/414/4064074002005/254/2",
+                "displayName": "GLN",
+                "order": 6
+            }
         },
         "basicProperties": {
-            "objectForm": null,
-            "unitLength": {
-                "unit_length": null,
-                "unit_length_uom": null,
-                "unit_length_uom_desc": null
-            },
-            "unitWidth": {
-                "unit_width": null,
-                "unit_width_uom": null,
-                "unit_width_uom_desc": null
-            },
-            "unitHeight": {
-                "unit_height": null,
-                "unit_height_uom": null,
-                "unit_height_uom_desc": null
-            },
-            "fillingVolume": {
-                "filling_volume": null,
-                "filling_volume_uom": null,
-                "filling_volume_uom_desc": null
-            },
             "surfaceWeight": {
-                "surface_weight": 20.526,
-                "surface_weight_uom": "GM",
-                "surface_weight_uom_desc": "g/m²"
+                "value": 20.526,
+                "uom": "GM",
+                "uom_desc": "g/m²",
+                "displayName": "Surface Weight",
+                "order": 16
             },
             "thickness": {
-                "thickness": 22,
-                "thickness_uom": "4H",
-                "thickness_uom_desc": "µm"
-            },
-            "mfr": {
-                "mfr": null,
-                "mfr_uom": null,
-                "mfr_uom_desc": null
+                "value": 22,
+                "uom": "4H",
+                "uom_desc": "µm",
+                "displayName": "Thickness",
+                "order": 17
             }
         },
         "advancedProperties": {},
         "ingredientDetails": {
-            "biodegradability": false,
-            "foodApproval": null
+            "biodegradability": {
+                "value": false,
+                "displayName": "Biodegradability",
+                "order": 6
+            },
+            "foodApproval": {
+                "value": false,
+                "displayName": "Food Approval",
+                "order": 7
+            }
         },
         "wasteDetails": {}
     },
@@ -316,80 +449,108 @@
         "primaryImage": null,
         "share": "0.83000",
         "lotOverview": {
-            "product_name": "Flexible Material (transparent)",
-            "gtin": "94064074000266",
-            "articleNumber": "608049",
-            "product_brand": "Various Packaging Materials and Components",
-            "detailedName": "BOPE-PCR 5L-23",
-            "lot": "AY7bMLPN751005",
+            "product_name": {
+                "value": "Flexible Material (transparent)",
+                "displayName": "Product",
+                "order": 1
+            },
+            "gtin": {
+                "value": "94064074000266",
+                "displayName": "GTIN",
+                "order": 2
+            },
+            "articleNumber": {
+                "value": "608049",
+                "displayName": "Article No.",
+                "order": 3
+            },
+            "product_brand": {
+                "value": "Various Packaging Materials and Components",
+                "displayName": "Brand",
+                "order": 4
+            },
+            "detailedName": {
+                "value": "BOPE-PCR 5L-23",
+                "displayName": "Name",
+                "order": 5
+            },
+            "lot": {
+                "value": "AY7bMLPN751005",
+                "displayName": "Lot ID",
+                "order": 6
+            },
             "lotQuantity": {
-                "quantity_value": "2790.00",
-                "quantity_uom": "MTR"
+                "value": "2790.00",
+                "uom": "MTR",
+                "displayName": "Lot Quantity",
+                "order": 7
             }
         },
         "productionDetails": {
-            "productionStep": "Slitting",
-            "eventTime": "2023-11-20T12:08:23+01:00",
-            "bizLocationName": "Kampf GmbH, Wiehl, D",
-            "bizLocation": "4064074001501",
-            "readPointName": "Slitter 1",
-            "readPoint": "/414/4064074001501/254/1",
-            "internalBatch": null
+            "productionStep": {
+                "value": "Slitting",
+                "displayName": "Production Step",
+                "order": 1
+            },
+            "eventTime": {
+                "value": "2023-11-20T12:08:23+01:00",
+                "displayName": "Production Time",
+                "order": 2
+            },
+            "bizLocationName": {
+                "value": "Kampf GmbH, Wiehl, D",
+                "displayName": "Production Location",
+                "order": 3
+            },
+            "bizLocation": {
+                "value": "4064074001501",
+                "displayName": "GLN",
+                "order": 4
+            },
+            "readPointName": {
+                "value": "Slitter 1",
+                "displayName": "Machine Name",
+                "order": 5
+            },
+            "readPoint": {
+                "value": "/414/4064074001501/254/1",
+                "displayName": "GLN",
+                "order": 6
+            }
         },
         "basicProperties": {
-            "objectForm": null,
-            "unitLength": {
-                "unit_length": null,
-                "unit_length_uom": null,
-                "unit_length_uom_desc": null
-            },
-            "unitWidth": {
-                "unit_width": null,
-                "unit_width_uom": null,
-                "unit_width_uom_desc": null
-            },
-            "unitHeight": {
-                "unit_height": null,
-                "unit_height_uom": null,
-                "unit_height_uom_desc": null
-            },
-            "fillingVolume": {
-                "filling_volume": null,
-                "filling_volume_uom": null,
-                "filling_volume_uom_desc": null
-            },
-            "productType": "Web",
-            "productClass": {
-                "product_class": null,
-                "product_class_group": null,
-                "product_class_desc": null,
-                "product_class_long_desc": null
-            },
-            "applicationRange": {
-                "application_range": null,
-                "application_range_desc": null,
-                "application_range_long_desc": null
+            "productType": {
+                "value": "Web",
+                "displayName": "Product Type",
+                "order": 12
             },
             "surfaceWeight": {
-                "surface_weight": null,
-                "surface_weight_uom": "GM",
-                "surface_weight_uom_desc": "g/m²"
+                "value": 20.526,
+                "uom": "GM",
+                "uom_desc": "g/m²",
+                "displayName": "Surface Weight",
+                "order": 16
             },
             "thickness": {
-                "thickness": null,
-                "thickness_uom": "4H",
-                "thickness_uom_desc": "µm"
-            },
-            "mfr": {
-                "mfr": null,
-                "mfr_uom": null,
-                "mfr_uom_desc": null
+                "value": 22,
+                "uom": "4H",
+                "uom_desc": "µm",
+                "displayName": "Thickness",
+                "order": 17
             }
         },
         "advancedProperties": {},
         "ingredientDetails": {
-            "biodegradability": false,
-            "foodApproval": null
+            "biodegradability": {
+                "value": false,
+                "displayName": "Biodegradability",
+                "order": 6
+            },
+            "foodApproval": {
+                "value": false,
+                "displayName": "Food Approval",
+                "order": 7
+            }
         },
         "wasteDetails": {}
     },
@@ -398,68 +559,98 @@
         "primaryImage": null,
         "share": "1.00000",
         "lotOverview": {
-            "product_name": "EVO Blown Film with recycled content",
-            "gtin": "94064074000464",
-            "articleNumber": null,
-            "product_brand": "EVO Blown Film",
-            "detailedName": "Lamination Film REC70-120-SEAL1",
-            "lot": "AYRVHON0233008",
+            "product_name": {
+                "value": "EVO Blown Film with recycled content",
+                "displayName": "Product",
+                "order": 1
+            },
+            "gtin": {
+                "value": "94064074000464",
+                "displayName": "GTIN",
+                "order": 2
+            },
+            "product_brand": {
+                "value": "EVO Blown Film",
+                "displayName": "Brand",
+                "order": 4
+            },
+            "detailedName": {
+                "value": "Lamination Film REC70-120-SEAL1",
+                "displayName": "Name",
+                "order": 5
+            },
+            "lot": {
+                "value": "AYRVHON0233008",
+                "displayName": "Lot ID",
+                "order": 6
+            },
             "lotQuantity": {
-                "quantity_value": "2024.00",
-                "quantity_uom": "MTR"
+                "value": "2024.00",
+                "uom": "MTR",
+                "displayName": "Lot Quantity",
+                "order": 7
             }
         },
         "productionDetails": {
-            "productionStep": "Film Extrusion",
-            "eventTime": "2023-08-02T15:54:17+02:00",
-            "bizLocationName": "Reifenhäuser R&D Center",
-            "bizLocation": "4064074000405",
-            "readPointName": "EVO Ultra Fusion 3-1600",
-            "readPoint": "/414/4064074000405/254/3",
-            "internalBatch": null
+            "productionStep": {
+                "value": "Film Extrusion",
+                "displayName": "Production Step",
+                "order": 1
+            },
+            "eventTime": {
+                "value": "2023-08-02T15:54:17+02:00",
+                "displayName": "Production Time",
+                "order": 2
+            },
+            "bizLocationName": {
+                "value": "Reifenhäuser R&D Center",
+                "displayName": "Production Location",
+                "order": 3
+            },
+            "bizLocation": {
+                "value": "4064074000405",
+                "displayName": "GLN",
+                "order": 4
+            },
+            "readPointName": {
+                "value": "EVO Ultra Fusion 3-1600",
+                "displayName": "Machine Name",
+                "order": 5
+            },
+            "readPoint": {
+                "value": "/414/4064074000405/254/3",
+                "displayName": "GLN",
+                "order": 6
+            }
         },
         "basicProperties": {
-            "objectForm": null,
-            "unitLength": {
-                "unit_length": null,
-                "unit_length_uom": null,
-                "unit_length_uom_desc": null
-            },
-            "unitWidth": {
-                "unit_width": null,
-                "unit_width_uom": null,
-                "unit_width_uom_desc": null
-            },
-            "unitHeight": {
-                "unit_height": null,
-                "unit_height_uom": null,
-                "unit_height_uom_desc": null
-            },
-            "fillingVolume": {
-                "filling_volume": null,
-                "filling_volume_uom": null,
-                "filling_volume_uom_desc": null
-            },
             "surfaceWeight": {
-                "surface_weight": 112.02640000000001,
-                "surface_weight_uom": "GM",
-                "surface_weight_uom_desc": "g/m²"
+                "value": 112.02640000000001,
+                "uom": "GM",
+                "uom_desc": "g/m²",
+                "displayName": "Surface Weight",
+                "order": 16
             },
             "thickness": {
-                "thickness": 120.2,
-                "thickness_uom": "4H",
-                "thickness_uom_desc": "µm"
-            },
-            "mfr": {
-                "mfr": null,
-                "mfr_uom": null,
-                "mfr_uom_desc": null
+                "value": 120.2,
+                "uom": "4H",
+                "uom_desc": "µm",
+                "displayName": "Thickness",
+                "order": 17
             }
         },
         "advancedProperties": {},
         "ingredientDetails": {
-            "biodegradability": false,
-            "foodApproval": null
+            "biodegradability": {
+                "value": false,
+                "displayName": "Biodegradability",
+                "order": 6
+            },
+            "foodApproval": {
+                "value": false,
+                "displayName": "Food Approval",
+                "order": 7
+            }
         },
         "wasteDetails": {}
     },
@@ -468,74 +659,103 @@
         "primaryImage": null,
         "share": "0.16820",
         "lotOverview": {
-            "product_name": "Flexible Material (transparent)",
-            "gtin": "94064074000266",
-            "articleNumber": null,
-            "product_brand": "Various Packaging Materials and Components",
-            "detailedName": "BOPE-PCR 5L-23_Printed",
-            "lot": "YKcT4jUe5S066YUBipS6",
+            "product_name": {
+                "value": "Flexible Material (transparent)",
+                "displayName": "Product",
+                "order": 1
+            },
+            "gtin": {
+                "value": "94064074000266",
+                "displayName": "GTIN",
+                "order": 2
+            },
+            "product_brand": {
+                "value": "Various Packaging Materials and Components",
+                "displayName": "Brand",
+                "order": 4
+            },
+            "detailedName": {
+                "value": "BOPE-PCR 5L-23_Printed",
+                "displayName": "Name",
+                "order": 5
+            },
+            "lot": {
+                "value": "YKcT4jUe5S066YUBipS6",
+                "displayName": "Lot ID",
+                "order": 6
+            },
             "lotQuantity": {
-                "quantity_value": "2000.00",
-                "quantity_uom": "MTR"
+                "value": "2000.00",
+                "uom": "MTR",
+                "displayName": "Lot Quantity",
+                "order": 7
             }
         },
         "productionDetails": {
-            "productionStep": "Printing",
-            "eventTime": "2024-06-04T11:06:44+01:00",
-            "bizLocationName": "Gascogne Flexible Germany GmbH, Linnich",
-            "bizLocation": "4064074000176",
-            "readPointName": "Printing Line",
-            "readPoint": "/414/4064074000176/254/1",
-            "internalBatch": null
+            "productionStep": {
+                "value": "Printing",
+                "displayName": "Production Step",
+                "order": 1
+            },
+            "eventTime": {
+                "value": "2024-06-04T11:06:44+01:00",
+                "displayName": "Production Time",
+                "order": 2
+            },
+            "bizLocationName": {
+                "value": "Gascogne Flexible Germany GmbH, Linnich",
+                "displayName": "Production Location",
+                "order": 3
+            },
+            "bizLocation": {
+                "value": "4064074000176",
+                "displayName": "GLN",
+                "order": 4
+            },
+            "readPointName": {
+                "value": "Printing Line",
+                "displayName": "Machine Name",
+                "order": 5
+            },
+            "readPoint": {
+                "value": "/414/4064074000176/254/1",
+                "displayName": "GLN",
+                "order": 6
+            }
         },
         "basicProperties": {
-            "objectForm": null,
-            "unitLength": {
-                "unit_length": null,
-                "unit_length_uom": null,
-                "unit_length_uom_desc": null
-            },
-            "unitWidth": {
-                "unit_width": null,
-                "unit_width_uom": null,
-                "unit_width_uom_desc": null
-            },
-            "unitHeight": {
-                "unit_height": null,
-                "unit_height_uom": null,
-                "unit_height_uom_desc": null
-            },
-            "fillingVolume": {
-                "filling_volume": null,
-                "filling_volume_uom": null,
-                "filling_volume_uom_desc": null
-            },
-            "productType": "Web",
-            "applicationRange": {
-                "application_range": null,
-                "application_range_desc": null,
-                "application_range_long_desc": null
+            "productType": {
+                "value": "Web",
+                "displayName": "Product Type",
+                "order": 12
             },
             "surfaceWeight": {
-                "surface_weight": 4.2,
-                "surface_weight_uom": "GM",
-                "surface_weight_uom_desc": "g/m²"
+                "value": 24.726,
+                "uom": "GM",
+                "uom_desc": "g/m²",
+                "displayName": "Surface Weight",
+                "order": 16
             },
             "thickness": {
-                "thickness": 4.2,
-                "thickness_uom": "4H",
-                "thickness_uom_desc": "µm"
-            },
-            "mfr": {
-                "mfr": null,
-                "mfr_uom": null,
-                "mfr_uom_desc": null
+                "value": 26.2,
+                "uom": "4H",
+                "uom_desc": "µm",
+                "displayName": "Thickness",
+                "order": 17
             }
         },
         "advancedProperties": {},
         "ingredientDetails": {
-            "biodegradability": false,
-            "foodApproval": null
+            "biodegradability": {
+                "value": false,
+                "displayName": "Biodegradability",
+                "order": 6
+            },
+            "foodApproval": {
+                "value": false,
+                "displayName": "Food Approval",
+                "order": 7
+            }
         },
         "wasteDetails": {}
     },
@@ -544,80 +764,108 @@
         "primaryImage": null,
         "share": "0.81780",
         "lotOverview": {
-            "product_name": "Flexible Material (transparent)",
-            "gtin": "94064074000266",
-            "articleNumber": "608047",
-            "product_brand": "Various Packaging Materials and Components",
-            "detailedName": "Lamination Film REC70-120-SEAL1",
-            "lot": "AYObMLPm071008",
+            "product_name": {
+                "value": "Flexible Material (transparent)",
+                "displayName": "Product",
+                "order": 1
+            },
+            "gtin": {
+                "value": "94064074000266",
+                "displayName": "GTIN",
+                "order": 2
+            },
+            "articleNumber": {
+                "value": "608047",
+                "displayName": "Article No.",
+                "order": 3
+            },
+            "product_brand": {
+                "value": "Various Packaging Materials and Components",
+                "displayName": "Brand",
+                "order": 4
+            },
+            "detailedName": {
+                "value": "Lamination Film REC70-120-SEAL1",
+                "displayName": "Name",
+                "order": 5
+            },
+            "lot": {
+                "value": "AYObMLPm071008",
+                "displayName": "Lot ID",
+                "order": 6
+            },
             "lotQuantity": {
-                "quantity_value": "1000.00",
-                "quantity_uom": "MTR"
+                "value": "1000.00",
+                "uom": "MTR",
+                "displayName": "Lot Quantity",
+                "order": 7
             }
         },
         "productionDetails": {
-            "productionStep": "Slitting",
-            "eventTime": "2023-11-19T12:08:23+01:00",
-            "bizLocationName": "Kampf GmbH, Wiehl, D",
-            "bizLocation": "4064074001501",
-            "readPointName": "Slitter 1",
-            "readPoint": "/414/4064074001501/254/1",
-            "internalBatch": null
+            "productionStep": {
+                "value": "Slitting",
+                "displayName": "Production Step",
+                "order": 1
+            },
+            "eventTime": {
+                "value": "2023-11-19T12:08:23+01:00",
+                "displayName": "Production Time",
+                "order": 2
+            },
+            "bizLocationName": {
+                "value": "Kampf GmbH, Wiehl, D",
+                "displayName": "Production Location",
+                "order": 3
+            },
+            "bizLocation": {
+                "value": "4064074001501",
+                "displayName": "GLN",
+                "order": 4
+            },
+            "readPointName": {
+                "value": "Slitter 1",
+                "displayName": "Machine Name",
+                "order": 5
+            },
+            "readPoint": {
+                "value": "/414/4064074001501/254/1",
+                "displayName": "GLN",
+                "order": 6
+            }
         },
         "basicProperties": {
-            "objectForm": null,
-            "unitLength": {
-                "unit_length": null,
-                "unit_length_uom": null,
-                "unit_length_uom_desc": null
-            },
-            "unitWidth": {
-                "unit_width": null,
-                "unit_width_uom": null,
-                "unit_width_uom_desc": null
-            },
-            "unitHeight": {
-                "unit_height": null,
-                "unit_height_uom": null,
-                "unit_height_uom_desc": null
-            },
-            "fillingVolume": {
-                "filling_volume": null,
-                "filling_volume_uom": null,
-                "filling_volume_uom_desc": null
-            },
-            "productType": "Web",
-            "productClass": {
-                "product_class": null,
-                "product_class_group": null,
-                "product_class_desc": null,
-                "product_class_long_desc": null
-            },
-            "applicationRange": {
-                "application_range": null,
-                "application_range_desc": null,
-                "application_range_long_desc": null
+            "productType": {
+                "value": "Web",
+                "displayName": "Product Type",
+                "order": 12
             },
             "surfaceWeight": {
-                "surface_weight": null,
-                "surface_weight_uom": "GM",
-                "surface_weight_uom_desc": "g/m²"
+                "value": 112.02640000000001,
+                "uom": "GM",
+                "uom_desc": "g/m²",
+                "displayName": "Surface Weight",
+                "order": 16
             },
             "thickness": {
-                "thickness": null,
-                "thickness_uom": "4H",
-                "thickness_uom_desc": "µm"
-            },
-            "mfr": {
-                "mfr": null,
-                "mfr_uom": null,
-                "mfr_uom_desc": null
+                "value": 120.2,
+                "uom": "4H",
+                "uom_desc": "µm",
+                "displayName": "Thickness",
+                "order": 17
             }
         },
         "advancedProperties": {},
         "ingredientDetails": {
-            "biodegradability": false,
-            "foodApproval": null
+            "biodegradability": {
+                "value": false,
+                "displayName": "Biodegradability",
+                "order": 6
+            },
+            "foodApproval": {
+                "value": false,
+                "displayName": "Food Approval",
+                "order": 7
+            }
         },
         "wasteDetails": {}
     },
@@ -626,74 +874,103 @@
         "primaryImage": null,
         "share": "1.00000",
         "lotOverview": {
-            "product_name": "Flexible Material (transparent)",
-            "gtin": "94064074000266",
-            "articleNumber": null,
-            "product_brand": "Various Packaging Materials and Components",
-            "detailedName": "Laminate PlasticBond_Seal1_BOPE23",
-            "lot": "AYfbMLPq702004",
+            "product_name": {
+                "value": "Flexible Material (transparent)",
+                "displayName": "Product",
+                "order": 1
+            },
+            "gtin": {
+                "value": "94064074000266",
+                "displayName": "GTIN",
+                "order": 2
+            },
+            "product_brand": {
+                "value": "Various Packaging Materials and Components",
+                "displayName": "Brand",
+                "order": 4
+            },
+            "detailedName": {
+                "value": "Laminate PlasticBond_Seal1_BOPE23",
+                "displayName": "Name",
+                "order": 5
+            },
+            "lot": {
+                "value": "AYfbMLPq702004",
+                "displayName": "Lot ID",
+                "order": 6
+            },
             "lotQuantity": {
-                "quantity_value": "750.00",
-                "quantity_uom": "MTR"
+                "value": "750.00",
+                "uom": "MTR",
+                "displayName": "Lot Quantity",
+                "order": 7
             }
         },
         "productionDetails": {
-            "productionStep": "Laminating",
-            "eventTime": "2024-06-12T13:21:19+01:00",
-            "bizLocationName": "Gascogne Flexible Germany GmbH, Linnich",
-            "bizLocation": "4064074000176",
-            "readPointName": "Laminator",
-            "readPoint": "/414/4064074000176/254/2",
-            "internalBatch": null
+            "productionStep": {
+                "value": "Laminating",
+                "displayName": "Production Step",
+                "order": 1
+            },
+            "eventTime": {
+                "value": "2024-06-12T13:21:19+01:00",
+                "displayName": "Production Time",
+                "order": 2
+            },
+            "bizLocationName": {
+                "value": "Gascogne Flexible Germany GmbH, Linnich",
+                "displayName": "Production Location",
+                "order": 3
+            },
+            "bizLocation": {
+                "value": "4064074000176",
+                "displayName": "GLN",
+                "order": 4
+            },
+            "readPointName": {
+                "value": "Laminator",
+                "displayName": "Machine Name",
+                "order": 5
+            },
+            "readPoint": {
+                "value": "/414/4064074000176/254/2",
+                "displayName": "GLN",
+                "order": 6
+            }
         },
         "basicProperties": {
-            "objectForm": null,
-            "unitLength": {
-                "unit_length": null,
-                "unit_length_uom": null,
-                "unit_length_uom_desc": null
-            },
-            "unitWidth": {
-                "unit_width": null,
-                "unit_width_uom": null,
-                "unit_width_uom_desc": null
-            },
-            "unitHeight": {
-                "unit_height": null,
-                "unit_height_uom": null,
-                "unit_height_uom_desc": null
-            },
-            "fillingVolume": {
-                "filling_volume": null,
-                "filling_volume_uom": null,
-                "filling_volume_uom_desc": null
-            },
-            "productType": "Web",
-            "applicationRange": {
-                "application_range": null,
-                "application_range_desc": null,
-                "application_range_long_desc": null
+            "productType": {
+                "value": "Web",
+                "displayName": "Product Type",
+                "order": 12
             },
             "surfaceWeight": {
-                "surface_weight": 2.1,
-                "surface_weight_uom": "GM",
-                "surface_weight_uom_desc": "g/m²"
+                "value": 138.85240000000002,
+                "uom": "GM",
+                "uom_desc": "g/m²",
+                "displayName": "Surface Weight",
+                "order": 16
             },
             "thickness": {
-                "thickness": 2.1,
-                "thickness_uom": "4H",
-                "thickness_uom_desc": "µm"
-            },
-            "mfr": {
-                "mfr": null,
-                "mfr_uom": null,
-                "mfr_uom_desc": null
+                "value": 148.5,
+                "uom": "4H",
+                "uom_desc": "µm",
+                "displayName": "Thickness",
+                "order": 17
             }
         },
         "advancedProperties": {},
         "ingredientDetails": {
-            "biodegradability": false,
-            "foodApproval": null
+            "biodegradability": {
+                "value": false,
+                "displayName": "Biodegradability",
+                "order": 6
+            },
+            "foodApproval": {
+                "value": false,
+                "displayName": "Food Approval",
+                "order": 7
+            }
         },
         "wasteDetails": {}
     },
@@ -702,58 +979,83 @@
         "primaryImage": null,
         "share": "0.20183",
         "lotOverview": {
-            "product_name": "Rigid Material (unspecific)",
-            "gtin": "04064074000270",
-            "articleNumber": null,
-            "product_brand": "Various Packaging Materials and Components",
-            "detailedName": "Spout PE-80",
-            "lot": "AYGbKLPY754005",
+            "product_name": {
+                "value": "Rigid Material (unspecific)",
+                "displayName": "Product",
+                "order": 1
+            },
+            "gtin": {
+                "value": "04064074000270",
+                "displayName": "GTIN",
+                "order": 2
+            },
+            "product_brand": {
+                "value": "Various Packaging Materials and Components",
+                "displayName": "Brand",
+                "order": 4
+            },
+            "detailedName": {
+                "value": "Spout PE-80",
+                "displayName": "Name",
+                "order": 5
+            },
+            "lot": {
+                "value": "AYGbKLPY754005",
+                "displayName": "Lot ID",
+                "order": 6
+            },
             "lotQuantity": {
-                "quantity_value": "1000.00",
-                "quantity_uom": null
+                "value": "1000.00",
+                "uom": null,
+                "displayName": "Lot Quantity",
+                "order": 7
             }
         },
         "productionDetails": {
-            "productionStep": "Injection Moulding",
-            "eventTime": "2023-12-06T11:33:00+01:00",
-            "bizLocationName": "Pöppelmann GmbH & Co.KG, Werk 1",
-            "bizLocation": "4064074000148",
-            "readPointName": "Production Line",
-            "readPoint": "/414/4064074000148/254/4",
-            "internalBatch": null
-        },
-        "basicProperties": {
-            "objectForm": null,
-            "unitLength": {
-                "unit_length": null,
-                "unit_length_uom": null,
-                "unit_length_uom_desc": null
+            "productionStep": {
+                "value": "Injection Moulding",
+                "displayName": "Production Step",
+                "order": 1
             },
-            "unitWidth": {
-                "unit_width": null,
-                "unit_width_uom": null,
-                "unit_width_uom_desc": null
+            "eventTime": {
+                "value": "2023-12-06T11:33:00+01:00",
+                "displayName": "Production Time",
+                "order": 2
             },
-            "unitHeight": {
-                "unit_height": null,
-                "unit_height_uom": null,
-                "unit_height_uom_desc": null
+            "bizLocationName": {
+                "value": "Pöppelmann GmbH & Co.KG, Werk 1",
+                "displayName": "Production Location",
+                "order": 3
             },
-            "fillingVolume": {
-                "filling_volume": null,
-                "filling_volume_uom": null,
-                "filling_volume_uom_desc": null
+            "bizLocation": {
+                "value": "4064074000148",
+                "displayName": "GLN",
+                "order": 4
             },
-            "mfr": {
-                "mfr": null,
-                "mfr_uom": null,
-                "mfr_uom_desc": null
+            "readPointName": {
+                "value": "Production Line",
+                "displayName": "Machine Name",
+                "order": 5
+            },
+            "readPoint": {
+                "value": "/414/4064074000148/254/4",
+                "displayName": "GLN",
+                "order": 6
             }
         },
+        "basicProperties": {},
         "advancedProperties": {},
         "ingredientDetails": {
-            "biodegradability": false,
-            "foodApproval": null
+            "biodegradability": {
+                "value": false,
+                "displayName": "Biodegradability",
+                "order": 6
+            },
+            "foodApproval": {
+                "value": false,
+                "displayName": "Food Approval",
+                "order": 7
+            }
         },
         "wasteDetails": {}
     },
@@ -762,80 +1064,103 @@
         "primaryImage": null,
         "share": "0.79817",
         "lotOverview": {
-            "product_name": "Flexible Material (transparent)",
-            "gtin": "94064074000266",
-            "articleNumber": null,
-            "product_brand": "Various Packaging Materials and Components",
-            "detailedName": "Laminate PlasticBond_Seal1_BOPE23",
-            "lot": "AYobMLPz871003",
+            "product_name": {
+                "value": "Flexible Material (transparent)",
+                "displayName": "Product",
+                "order": 1
+            },
+            "gtin": {
+                "value": "94064074000266",
+                "displayName": "GTIN",
+                "order": 2
+            },
+            "product_brand": {
+                "value": "Various Packaging Materials and Components",
+                "displayName": "Brand",
+                "order": 4
+            },
+            "detailedName": {
+                "value": "Laminate PlasticBond_Seal1_BOPE23",
+                "displayName": "Name",
+                "order": 5
+            },
+            "lot": {
+                "value": "AYobMLPz871003",
+                "displayName": "Lot ID",
+                "order": 6
+            },
             "lotQuantity": {
-                "quantity_value": "700.00",
-                "quantity_uom": "MTR"
+                "value": "700.00",
+                "uom": "MTR",
+                "displayName": "Lot Quantity",
+                "order": 7
             }
         },
         "productionDetails": {
-            "productionStep": "Slitting",
-            "eventTime": "2024-07-01T11:25:56+01:00",
-            "bizLocationName": "Kampf GmbH, Wiehl, D",
-            "bizLocation": "4064074001501",
-            "readPointName": "Slitter 1",
-            "readPoint": "/414/4064074001501/254/1",
-            "internalBatch": null
+            "productionStep": {
+                "value": "Slitting",
+                "displayName": "Production Step",
+                "order": 1
+            },
+            "eventTime": {
+                "value": "2024-07-01T11:25:56+01:00",
+                "displayName": "Production Time",
+                "order": 2
+            },
+            "bizLocationName": {
+                "value": "Kampf GmbH, Wiehl, D",
+                "displayName": "Production Location",
+                "order": 3
+            },
+            "bizLocation": {
+                "value": "4064074001501",
+                "displayName": "GLN",
+                "order": 4
+            },
+            "readPointName": {
+                "value": "Slitter 1",
+                "displayName": "Machine Name",
+                "order": 5
+            },
+            "readPoint": {
+                "value": "/414/4064074001501/254/1",
+                "displayName": "GLN",
+                "order": 6
+            }
         },
         "basicProperties": {
-            "objectForm": null,
-            "unitLength": {
-                "unit_length": null,
-                "unit_length_uom": null,
-                "unit_length_uom_desc": null
-            },
-            "unitWidth": {
-                "unit_width": null,
-                "unit_width_uom": null,
-                "unit_width_uom_desc": null
-            },
-            "unitHeight": {
-                "unit_height": null,
-                "unit_height_uom": null,
-                "unit_height_uom_desc": null
-            },
-            "fillingVolume": {
-                "filling_volume": null,
-                "filling_volume_uom": null,
-                "filling_volume_uom_desc": null
-            },
-            "productType": "Web",
-            "productClass": {
-                "product_class": null,
-                "product_class_group": null,
-                "product_class_desc": null,
-                "product_class_long_desc": null
-            },
-            "applicationRange": {
-                "application_range": null,
-                "application_range_desc": null,
-                "application_range_long_desc": null
+            "productType": {
+                "value": "Web",
+                "displayName": "Product Type",
+                "order": 12
             },
             "surfaceWeight": {
-                "surface_weight": null,
-                "surface_weight_uom": "GM",
-                "surface_weight_uom_desc": "g/m²"
+                "value": 138.85240000000002,
+                "uom": "GM",
+                "uom_desc": "g/m²",
+                "displayName": "Surface Weight",
+                "order": 16
             },
             "thickness": {
-                "thickness": null,
-                "thickness_uom": "4H",
-                "thickness_uom_desc": "µm"
-            },
-            "mfr": {
-                "mfr": null,
-                "mfr_uom": null,
-                "mfr_uom_desc": null
+                "value": 148.5,
+                "uom": "4H",
+                "uom_desc": "µm",
+                "displayName": "Thickness",
+                "order": 17
             }
         },
         "advancedProperties": {},
         "ingredientDetails": {
-            "biodegradability": false,
-            "foodApproval": null
+            "biodegradability": {
+                "value": false,
+                "displayName": "Biodegradability",
+                "order": 6
+            },
+            "foodApproval": {
+                "value": false,
+                "displayName": "Food Approval",
+                "order": 7
+            }
         },
         "wasteDetails": {}
     },
@@ -844,93 +1169,140 @@
         "primaryImage": "f6644cde-967f-4e22-a84b-6b60446fe827",
         "share": "1.00000",
         "lotOverview": {
-            "product_name": "Pouch for Detergent (PlasticBond Project)",
-            "gtin": "04064074002090",
-            "articleNumber": null,
-            "product_brand": null,
-            "detailedName": "PlasticBond Demo Package (Seal1_BOPE23)",
-            "lot": "AYxbMLP2932005",
+            "product_name": {
+                "value": "Pouch for Detergent (PlasticBond Project)",
+                "displayName": "Product",
+                "order": 1
+            },
+            "gtin": {
+                "value": "04064074002090",
+                "displayName": "GTIN",
+                "order": 2
+            },
+            "detailedName": {
+                "value": "PlasticBond Demo Package (Seal1_BOPE23)",
+                "displayName": "Name",
+                "order": 5
+            },
+            "lot": {
+                "value": "AYxbMLP2932005",
+                "displayName": "Lot ID",
+                "order": 6
+            },
             "lotQuantity": {
-                "quantity_value": "1000.00",
-                "quantity_uom": null
+                "value": "1000.00",
+                "uom": null,
+                "displayName": "Lot Quantity",
+                "order": 7
             }
         },
         "productionDetails": {
-            "productionStep": "Packaging Production",
-            "eventTime": "2024-08-10T13:15:24+01:00",
-            "bizLocationName": "Henkel, Düsseldorf, Germany",
-            "bizLocation": "4064074002027",
-            "readPointName": "Packaging Line for Pouches",
-            "readPoint": "/414/4064074002027/254/2",
-            "internalBatch": null
+            "productionStep": {
+                "value": "Packaging Production",
+                "displayName": "Production Step",
+                "order": 1
+            },
+            "eventTime": {
+                "value": "2024-08-10T13:15:24+01:00",
+                "displayName": "Production Time",
+                "order": 2
+            },
+            "bizLocationName": {
+                "value": "Henkel, Düsseldorf, Germany",
+                "displayName": "Production Location",
+                "order": 3
+            },
+            "bizLocation": {
+                "value": "4064074002027",
+                "displayName": "GLN",
+                "order": 4
+            },
+            "readPointName": {
+                "value": "Packaging Line for Pouches",
+                "displayName": "Machine Name",
+                "order": 5
+            },
+            "readPoint": {
+                "value": "/414/4064074002027/254/2",
+                "displayName": "GLN",
+                "order": 6
+            }
         },
         "basicProperties": {
-            "objectForm": "2D",
+            "objectForm": {
+                "value": "2D",
+                "displayName": "Form",
+                "order": 1
+            },
             "packagingType": {
-                "packaging_type": "PO",
-                "packaging_type_desc": "Pouch",
-                "packaging_type_long_desc": "A preformed, flexible container, generally enclosed with a gusset seal at the bottom of the pack can be shaped/arranged to allow the pack to stand on shelf."
+                "value": "PO",
+                "desc": "Pouch",
+                "long_desc": "A preformed, flexible container, generally enclosed with a gusset seal at the bottom of the pack can be shaped/arranged to allow the pack to stand on shelf.",
+                "displayName": "Packaging Type",
+                "order": 2
             },
             "packagingLevel": {
-                "packaging_level": "PRIMARY",
-                "packaging_level_desc": "Primary packaging",
-                "packaging_level_long_desc": "The individual sale unit container that directly contains the product and is handed to the end consumer. For example - a plastic bottle or aluminum can holding a beverage."
-            },
-            "contentOfPackaging": {
-                "content_of_packaging": null,
-                "content_of_packaging_desc": null,
-                "content_of_packaging_long_desc": null
-            },
-            "unitLength": {
-                "unit_length": null,
-                "unit_length_uom": null,
-                "unit_length_uom_desc": null
+                "value": "PRIMARY",
+                "desc": "Primary packaging",
+                "long_desc": "The individual sale unit container that directly contains the product and is handed to the end consumer. For example - a plastic bottle or aluminum can holding a beverage.",
+                "displayName": "Packaging Level",
+                "order": 3
             },
             "unitWidth": {
-                "unit_width": "130.00",
-                "unit_width_uom": "MMT",
-                "unit_width_uom_desc": "mm"
+                "value": "130.00",
+                "uom": "MMT",
+                "uom_desc": "mm",
+                "displayName": "Width",
+                "order": 6
             },
             "unitHeight": {
-                "unit_height": "210.00",
-                "unit_height_uom": "MMT",
-                "unit_height_uom_desc": "mm"
+                "value": "210.00",
+                "uom": "MMT",
+                "uom_desc": "mm",
+                "displayName": "Height",
+                "order": 7
             },
             "fillingVolume": {
-                "filling_volume": "500.00",
-                "filling_volume_uom": "ML",
-                "filling_volume_uom_desc": null
+                "value": "500.00",
+                "uom": "ML",
+                "uom_desc": null,
+                "displayName": "Filling Volume",
+                "order": 8
             },
             "unitWeight": {
-                "unit_weight": 10.899999999999999,
-                "unit_weight_uom": "GRM",
-                "unit_weight_uom_desc": "g"
-            },
-            "applicationRange": {
-                "application_range": null,
-                "application_range_desc": null,
-                "application_range_long_desc": null
+                "value": 10.899999999999999,
+                "uom": "GRM",
+                "uom_desc": "g",
+                "displayName": "Unit Weight",
+                "order": 9
             },
             "surfaceWeight": {
-                "surface_weight": null,
-                "surface_weight_uom": "GM",
-                "surface_weight_uom_desc": "g/m²"
+                "value": 138.85240000000002,
+                "uom": "GM",
+                "uom_desc": "g/m²",
+                "displayName": "Surface Weight",
+                "order": 16
             },
             "thickness": {
-                "thickness": null,
-                "thickness_uom": "4H",
-                "thickness_uom_desc": "µm"
-            },
-            "mfr": {
-                "mfr": null,
-                "mfr_uom": null,
-                "mfr_uom_desc": null
+                "value": 148.5,
+                "uom": "4H",
+                "uom_desc": "µm",
+                "displayName": "Thickness",
+                "order": 17
             }
         },
         "advancedProperties": {},
         "ingredientDetails": {
-            "biodegradability": false,
-            "foodApproval": null
+            "biodegradability": {
+                "value": false,
+                "displayName": "Biodegradability",
+                "order": 6
+            },
+            "foodApproval": {
+                "value": false,
+                "displayName": "Food Approval",
+                "order": 7
+            }
         },
         "wasteDetails": {}
     }
