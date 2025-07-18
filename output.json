@@ -414,6 +414,13 @@
             }
         },
         "basicProperties": {
+            "applicationRange": {
+                "value": "PE1",
+                "desc": "PE - 0.2-5.0 g/10min at 2.16 kg/190 °C",
+                "long_desc": "PE for film extrusion and blow moulding (film, bottles, drums). Including blow moulding grades: HDPE 5-25 g/10min at 21.6 kg/190 °C and HMWPE 2-5 g/10min @21.6 kg/190 °C",
+                "displayName": "Application",
+                "order": 14
+            },
             "surfaceWeight": {
                 "value": 20.526,
                 "uom": "GM",
@@ -624,6 +631,13 @@
             }
         },
         "basicProperties": {
+            "applicationRange": {
+                "value": "PE1",
+                "desc": "PE - 0.2-5.0 g/10min at 2.16 kg/190 °C",
+                "long_desc": "PE for film extrusion and blow moulding (film, bottles, drums). Including blow moulding grades: HDPE 5-25 g/10min at 21.6 kg/190 °C and HMWPE 2-5 g/10min @21.6 kg/190 °C",
+                "displayName": "Application",
+                "order": 14
+            },
             "surfaceWeight": {
                 "value": 112.02640000000001,
                 "uom": "GM",
@@ -686,7 +700,7 @@
             },
             "lotQuantity": {
                 "value": "2000.00",
-                "uom": "MTR",
+                "desc": "MTR",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -901,7 +915,7 @@
             },
             "lotQuantity": {
                 "value": "750.00",
-                "uom": "MTR",
+                "desc": "MTR",
                 "displayName": "Lot Quantity",
                 "order": 7
             }

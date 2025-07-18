@@ -1090,8 +1090,8 @@
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"],["quantity_uom"]],
-            "name": [["value"],["uom"]]
+            "target": [["quantity_value"],["quantity_uom"],["quantity_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -1105,8 +1105,8 @@
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"],["quantity_uom"]],
-            "name": [["value"],["desc"],["long_desc"]]
+            "target": [["quantity_value"],["quantity_uom"],["quantity_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -1120,8 +1120,8 @@
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"],["quantity_uom"]],
-            "name": [["value"],["uom"]]
+            "target": [["quantity_value"],["quantity_uom"],["quantity_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -1135,8 +1135,8 @@
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"],["quantity_uom"]],
-            "name": [["value"],["uom"]]
+            "target": [["quantity_value"],["quantity_uom"],["quantity_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -1150,8 +1150,8 @@
         "production_step": "Plastic raw material producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"],["quantity_uom"]],
-            "name": [["value"],["uom"]]
+            "target": [["quantity_value"],["quantity_uom"],["quantity_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -1165,8 +1165,8 @@
         "production_step": "Waste processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"],["quantity_uom"]],
-            "name": [["value"],["uom"]]
+            "target": [["quantity_value"],["quantity_uom"],["quantity_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"

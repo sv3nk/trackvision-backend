@@ -6143,4 +6143,22 @@ calculateChildren(treeData);
 
 createOutputData();
 
+//sort the outputdata parts so that the frontend gets them in the right sorting 
+
+var jsonOutputData = JSON.stringify(outputData)
+
+var fs = require('fs');
+fs.writeFile("output.json", jsonOutputData, (error) => {
+  // throwing the error
+  // in case of a writing problem
+  if (error) {
+    // logging the error
+    console.error(error);
+
+    throw error;
+  }
+
+  console.log("output.json written correctly");
+});
+
 return outputData;
