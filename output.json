@@ -532,7 +532,7 @@
                 "order": 12
             },
             "surfaceWeight": {
-                "value": 20.526,
+                "value": 20.53,
                 "uom": "GM",
                 "uom_desc": "g/m²",
                 "displayName": "Surface Weight",
@@ -744,7 +744,7 @@
                 "order": 12
             },
             "surfaceWeight": {
-                "value": 24.726,
+                "value": 24.73,
                 "uom": "GM",
                 "uom_desc": "g/m²",
                 "displayName": "Surface Weight",
@@ -854,7 +854,7 @@
                 "order": 12
             },
             "surfaceWeight": {
-                "value": 112.02640000000001,
+                "value": 112.03,
                 "uom": "GM",
                 "uom_desc": "g/m²",
                 "displayName": "Surface Weight",
@@ -959,7 +959,7 @@
                 "order": 12
             },
             "surfaceWeight": {
-                "value": 138.85240000000002,
+                "value": 138.85999999999999,
                 "uom": "GM",
                 "uom_desc": "g/m²",
                 "displayName": "Surface Weight",
@@ -1149,7 +1149,7 @@
                 "order": 12
             },
             "surfaceWeight": {
-                "value": 138.85240000000002,
+                "value": 138.86,
                 "uom": "GM",
                 "uom_desc": "g/m²",
                 "displayName": "Surface Weight",
@@ -1284,14 +1284,14 @@
                 "order": 8
             },
             "unitWeight": {
-                "value": 10.899999999999999,
+                "value": 10.9,
                 "uom": "GRM",
                 "uom_desc": "g",
                 "displayName": "Unit Weight",
                 "order": 9
             },
             "surfaceWeight": {
-                "value": 138.85240000000002,
+                "value": 138.86,
                 "uom": "GM",
                 "uom_desc": "g/m²",
                 "displayName": "Surface Weight",
