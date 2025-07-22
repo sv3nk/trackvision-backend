@@ -5852,9 +5852,7 @@ function calculateUnitWeight(dataEntry) {
         var currentComponent = components[x]
         if (currentComponent['example:unitWeight']) {
             if (currentComponent['example:unitWeight']['example:unitCode'] == 'GRM') {
-                console.log('current unitWeight: ' + unitWeight)
                 unitWeight = addFloatNumbers(unitWeight, currentComponent['example:unitWeight']['example:value'])
-                console.log('new unitWeight: ' + unitWeight)
             } else if (currentComponent['example:unitWeight']['example:unitCode'] == 'KGM') {
                 unitWeight = addFloatNumbers(unitWeight, currentComponent['example:unitWeight']['example:value'])
                 unitCode = 'KGM'
@@ -6100,6 +6098,7 @@ function createOutputData() {
 
         var outputObject = {
             id: currentElement.child_id,
+            parent: currentElement.parent_id,
             primaryImage: primaryImage,
             share: share,
             lotOverview: {

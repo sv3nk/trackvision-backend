@@ -1,6 +1,7 @@
 [
     {
         "id": "/01/94064074001201/10/AYRbKLPz982000",
+        "parent": "/01/94064074001218/10/AYgbKLP3932005",
         "primaryImage": "3ce07f28-c888-4925-84aa-c3a0eb12fea8",
         "share": "1.00000",
         "lotOverview": {
@@ -75,6 +76,7 @@
     },
     {
         "id": "/01/94064074000549/10/AYNbKLPm231007",
+        "parent": "/01/94064074000266/10/AYCbKLPq072008",
         "primaryImage": "08877fca-beb1-409e-a1b2-0ae5dd66a9e7",
         "share": "0.30900",
         "lotOverview": {
@@ -168,6 +170,7 @@
     },
     {
         "id": "/01/94064074001218/10/AYgbKLP3932005",
+        "parent": "/01/94064074000549/10/AYBbLLPG701005",
         "primaryImage": "5815af23-3283-4bcf-ae6f-7cfb6cea49a4",
         "share": "1.00000",
         "lotOverview": {
@@ -248,6 +251,7 @@
     },
     {
         "id": "/01/94064074000549/10/AYBbLLPG701005",
+        "parent": "/01/94064074000464/10/AYRVHON0233008",
         "primaryImage": "08877fca-beb1-409e-a1b2-0ae5dd66a9e7",
         "share": "0.70000",
         "lotOverview": {
@@ -346,6 +350,7 @@
     },
     {
         "id": "/01/94064074000266/10/AYCbKLPq072008",
+        "parent": "/01/94064074000266/10/AY7bMLPN751005",
         "primaryImage": null,
         "share": "1.00000",
         "lotOverview": {
@@ -453,6 +458,7 @@
     },
     {
         "id": "/01/94064074000266/10/AY7bMLPN751005",
+        "parent": "/01/94064074000266/10/YKcT4jUe5S066YUBipS6",
         "primaryImage": null,
         "share": "0.83000",
         "lotOverview": {
@@ -563,6 +569,7 @@
     },
     {
         "id": "/01/94064074000464/10/AYRVHON0233008",
+        "parent": "/01/94064074000266/10/AYObMLPm071008",
         "primaryImage": null,
         "share": "1.00000",
         "lotOverview": {
@@ -670,6 +677,7 @@
     },
     {
         "id": "/01/94064074000266/10/YKcT4jUe5S066YUBipS6",
+        "parent": "/01/94064074000266/10/AYfbMLPq702004",
         "primaryImage": null,
         "share": "0.16820",
         "lotOverview": {
@@ -775,6 +783,7 @@
     },
     {
         "id": "/01/94064074000266/10/AYObMLPm071008",
+        "parent": "/01/94064074000266/10/AYfbMLPq702004",
         "primaryImage": null,
         "share": "0.81780",
         "lotOverview": {
@@ -885,6 +894,7 @@
     },
     {
         "id": "/01/94064074000266/10/AYfbMLPq702004",
+        "parent": "/01/94064074000266/10/AYobMLPz871003",
         "primaryImage": null,
         "share": "1.00000",
         "lotOverview": {
@@ -990,6 +1000,7 @@
     },
     {
         "id": "/01/04064074000270/10/AYGbKLPY754005",
+        "parent": "/01/04064074002090/10/AYxbMLP2932005",
         "primaryImage": null,
         "share": "0.20183",
         "lotOverview": {
@@ -1075,6 +1086,7 @@
     },
     {
         "id": "/01/94064074000266/10/AYobMLPz871003",
+        "parent": "/01/04064074002090/10/AYxbMLP2932005",
         "primaryImage": null,
         "share": "0.79817",
         "lotOverview": {
@@ -1180,6 +1192,7 @@
     },
     {
         "id": "/01/04064074002090/10/AYxbMLP2932005",
+        "parent": "/01/04064074002090/10/AYxbMLP2932005",
         "primaryImage": "f6644cde-967f-4e22-a84b-6b60446fe827",
         "share": "1.00000",
         "lotOverview": {
