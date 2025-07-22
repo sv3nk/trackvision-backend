@@ -28,6 +28,7 @@
             "lotQuantity": {
                 "value": "50000.00",
                 "uom": "KGM",
+                "uom_desc": "kg",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -103,6 +104,7 @@
             "lotQuantity": {
                 "value": "10000.00",
                 "uom": "KGM",
+                "uom_desc": "kg",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -197,6 +199,7 @@
             "lotQuantity": {
                 "value": "38000.00",
                 "uom": "KGM",
+                "uom_desc": "kg",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -278,6 +281,7 @@
             "lotQuantity": {
                 "value": "36400.00",
                 "uom": "KGM",
+                "uom_desc": "kg",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -382,6 +386,7 @@
             "lotQuantity": {
                 "value": "2797.00",
                 "uom": "MTR",
+                "uom_desc": "m",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -495,6 +500,7 @@
             "lotQuantity": {
                 "value": "2790.00",
                 "uom": "MTR",
+                "uom_desc": "m",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -601,6 +607,7 @@
             "lotQuantity": {
                 "value": "2024.00",
                 "uom": "MTR",
+                "uom_desc": "m",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -708,7 +715,8 @@
             },
             "lotQuantity": {
                 "value": "2000.00",
-                "desc": "MTR",
+                "uom": "MTR",
+                "uom_desc": "m",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -820,6 +828,7 @@
             "lotQuantity": {
                 "value": "1000.00",
                 "uom": "MTR",
+                "uom_desc": "m",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -925,7 +934,8 @@
             },
             "lotQuantity": {
                 "value": "750.00",
-                "desc": "MTR",
+                "uom": "MTR",
+                "uom_desc": "m",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -1032,6 +1042,7 @@
             "lotQuantity": {
                 "value": "1000.00",
                 "uom": null,
+                "uom_desc": null,
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -1118,6 +1129,7 @@
             "lotQuantity": {
                 "value": "700.00",
                 "uom": "MTR",
+                "uom_desc": "m",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -1219,6 +1231,7 @@
             "lotQuantity": {
                 "value": "1000.00",
                 "uom": null,
+                "uom_desc": null,
                 "displayName": "Lot Quantity",
                 "order": 7
             }

@@ -2980,7 +2980,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_type_desc"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "productType"
     },
@@ -2994,7 +2994,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_type_desc"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "productType"
     },
@@ -3007,8 +3007,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["product_class"], ["product_class_group"], ["product_class_desc"], ["product_class_long_desc"]],
-            "name": [["value"], ["value_add"], ["desc"], ["long_desc"]]
+            "target": [["product_class"],["product_class_desc"],["product_class_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "productClass"
@@ -3022,8 +3022,8 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["application_range"], ["application_range_desc"], ["application_range_long_desc"]],
-            "name": [["value"], ["desc"], ["long_desc"]]
+            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "applicationRange"
@@ -3037,8 +3037,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["application_range"], ["application_range_desc"], ["application_range_long_desc"]],
-            "name": [["value"], ["desc"], ["long_desc"]]
+            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "applicationRange"
@@ -3052,8 +3052,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["application_range"], ["application_range_desc"], ["application_range_long_desc"]],
-            "name": [["value"], ["desc"], ["long_desc"]]
+            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "applicationRange"
@@ -3067,8 +3067,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["application_range"], ["application_range_desc"], ["application_range_long_desc"]],
-            "name": [["value"], ["desc"], ["long_desc"]]
+            "target": [["application_range"],["application_range_desc"],["application_range_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "applicationRange"
@@ -3545,7 +3545,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["readPointName"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "readPointName"
     },
@@ -3559,7 +3559,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["readPointName"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "readPointName"
     },
@@ -3573,7 +3573,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["readPointName"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "readPointName"
     },
@@ -3587,7 +3587,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["readPointName"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "readPointName"
     },
@@ -3601,7 +3601,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["readPointName"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "readPointName"
     },
@@ -3615,7 +3615,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["readPointName"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "readPointName"
     },
@@ -3727,7 +3727,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_name"]
-        },
+        },        
         "rule_no": null,
         "attribute": "product_name"
     },
@@ -3741,7 +3741,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_name"]
-        },
+        },        
         "rule_no": null,
         "attribute": "product_name"
     },
@@ -3755,7 +3755,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_name"]
-        },
+        },        
         "rule_no": null,
         "attribute": "product_name"
     },
@@ -3769,7 +3769,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_name"]
-        },
+        },        
         "rule_no": null,
         "attribute": "product_name"
     },
@@ -3783,7 +3783,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_name"]
-        },
+        },        
         "rule_no": null,
         "attribute": "product_name"
     },
@@ -3797,7 +3797,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["gtin"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "gtin"
     },
@@ -3825,7 +3825,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["gtin"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "gtin"
     },
@@ -3839,7 +3839,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["gtin"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "gtin"
     },
@@ -3853,7 +3853,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["gtin"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "gtin"
     },
@@ -3867,7 +3867,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["gtin"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "gtin"
     },
@@ -3881,7 +3881,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_brand"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "product_brand"
     },
@@ -3895,7 +3895,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_brand"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "product_brand"
     },
@@ -3909,7 +3909,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_brand"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "product_brand"
     },
@@ -3923,7 +3923,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_brand"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "product_brand"
     },
@@ -3937,7 +3937,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_brand"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "product_brand"
     },
@@ -3951,7 +3951,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_brand"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "product_brand"
     },
@@ -3965,7 +3965,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["lot"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "lot"
     },
@@ -3979,7 +3979,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["lot"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "lot"
     },
@@ -3993,7 +3993,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["lot"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "lot"
     },
@@ -4007,7 +4007,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["lot"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "lot"
     },
@@ -4021,7 +4021,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["lot"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "lot"
     },
@@ -4035,7 +4035,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["lot"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "lot"
     },
@@ -4048,8 +4048,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"], ["quantity_uom"]],
-            "name": [["value"], ["uom"]]
+            "target": [["quantity_value"],["quantity_uom"],["quantity_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -4063,8 +4063,8 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"], ["quantity_uom"]],
-            "name": [["value"], ["desc"], ["long_desc"]]
+            "target": [["quantity_value"],["quantity_uom"],["quantity_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -4078,8 +4078,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"], ["quantity_uom"]],
-            "name": [["value"], ["uom"]]
+            "target": [["quantity_value"],["quantity_uom"],["quantity_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -4093,8 +4093,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"], ["quantity_uom"]],
-            "name": [["value"], ["uom"]]
+            "target": [["quantity_value"],["quantity_uom"],["quantity_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -4108,8 +4108,8 @@ var calculationRules = [
         "production_step": "Plastic raw material producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"], ["quantity_uom"]],
-            "name": [["value"], ["uom"]]
+            "target": [["quantity_value"],["quantity_uom"],["quantity_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -4123,8 +4123,8 @@ var calculationRules = [
         "production_step": "Waste processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["quantity_value"], ["quantity_uom"]],
-            "name": [["value"], ["uom"]]
+            "target": [["quantity_value"],["quantity_uom"],["quantity_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "lotQuantity"
@@ -4139,7 +4139,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["production_step_desc"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "productionStep"
     },
@@ -4153,7 +4153,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["production_step_desc"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "productionStep"
     },
@@ -4167,7 +4167,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["production_step_desc"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "productionStep"
     },
@@ -4181,7 +4181,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["production_step_desc"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "productionStep"
     },
@@ -4195,7 +4195,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["production_step_desc"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "productionStep"
     },
@@ -4209,7 +4209,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["production_step_desc"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "productionStep"
     },
@@ -4222,8 +4222,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["packaging_type"], ["packaging_type_desc"], ["packaging_type_long_desc"]],
-            "name": [["value"], ["desc"], ["long_desc"]]
+            "target": [["packaging_type"],["packaging_type_desc"],["packaging_type_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "packagingType"
@@ -4237,8 +4237,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["packaging_level"], ["packaging_level_desc"], ["packaging_level_long_desc"]],
-            "name": [["value"], ["desc"], ["long_desc"]]
+            "target": [["packaging_level"],["packaging_level_desc"],["packaging_level_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "packagingLevel"
@@ -4252,8 +4252,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["content_of_packaging"], ["content_of_packaging_desc"], ["content_of_packaging_long_desc"]],
-            "name": [["value"], ["desc"], ["long_desc"]]
+            "target": [["content_of_packaging"],["content_of_packaging_desc"],["content_of_packaging_long_desc"]],
+            "name": [["value"],["desc"],["long_desc"]]
         },
         "rule_no": null,
         "attribute": "contentOfPackaging"
@@ -4268,7 +4268,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["product_shape_desc"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "productShape"
     },
@@ -4571,7 +4571,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:articleNumber"]
-        },
+        },        
         "rule_no": null,
         "attribute": "articleNumber"
     },
@@ -4585,7 +4585,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:articleNumber"]
-        },
+        },        
         "rule_no": null,
         "attribute": "articleNumber"
     },
@@ -4599,7 +4599,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:articleNumber"]
-        },
+        },        
         "rule_no": null,
         "attribute": "articleNumber"
     },
@@ -4613,7 +4613,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:articleNumber"]
-        },
+        },        
         "rule_no": null,
         "attribute": "articleNumber"
     },
@@ -4627,7 +4627,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:articleNumber"]
-        },
+        },        
         "rule_no": null,
         "attribute": "articleNumber"
     },
@@ -4655,7 +4655,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["detailed_name"]
-        },
+        },        
         "rule_no": null,
         "attribute": "detailedName"
     },
@@ -4669,7 +4669,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["detailed_name"]
-        },
+        },        
         "rule_no": null,
         "attribute": "detailedName"
     },
@@ -4683,7 +4683,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["detailed_name"]
-        },
+        },        
         "rule_no": null,
         "attribute": "detailedName"
     },
@@ -4697,7 +4697,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["detailed_name"]
-        },
+        },        
         "rule_no": null,
         "attribute": "detailedName"
     },
@@ -4711,7 +4711,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["detailed_name"]
-        },
+        },        
         "rule_no": null,
         "attribute": "detailedName"
     },
@@ -4739,7 +4739,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "eventTime"]
-        },
+        },        
         "rule_no": null,
         "attribute": "eventTime"
     },
@@ -4753,7 +4753,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "eventTime"]
-        },
+        },        
         "rule_no": null,
         "attribute": "eventTime"
     },
@@ -4767,7 +4767,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "eventTime"]
-        },
+        },        
         "rule_no": null,
         "attribute": "eventTime"
     },
@@ -4781,7 +4781,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "eventTime"]
-        },
+        },        
         "rule_no": null,
         "attribute": "eventTime"
     },
@@ -4795,11 +4795,11 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "eventTime"]
-        },
+        },        
         "rule_no": null,
         "attribute": "eventTime"
     },
-    {
+        {
         "id": 90103,
         "user_created": "0201d1af-9254-4924-9b41-2da21be261c4",
         "date_created": "2025-05-27T08:51:31.000Z",
@@ -4893,7 +4893,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["readPoint"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "readPoint"
     },
@@ -4907,7 +4907,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["readPoint"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "readPoint"
     },
@@ -4921,7 +4921,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["readPoint"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "readPoint"
     },
@@ -4935,7 +4935,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["readPoint"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "readPoint"
     },
@@ -4949,7 +4949,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["readPoint"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "readPoint"
     },
@@ -4963,7 +4963,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["readPoint"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "readPoint"
     },
@@ -4977,7 +4977,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:internalBatch"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "internalBatch"
     },
@@ -4991,7 +4991,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:internalBatch"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "internalBatch"
     },
@@ -5005,7 +5005,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:internalBatch"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "internalBatch"
     },
@@ -5019,7 +5019,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:internalBatch"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "internalBatch"
     },
@@ -5033,7 +5033,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:internalBatch"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "internalBatch"
     },
@@ -5047,7 +5047,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:internalBatch"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "internalBatch"
     },
@@ -5061,7 +5061,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:objectForm"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "objectForm"
     },
@@ -5075,7 +5075,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:objectForm"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "objectForm"
     },
@@ -5089,7 +5089,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:objectForm"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "objectForm"
     },
@@ -5103,7 +5103,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:objectForm"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "objectForm"
     },
@@ -5117,7 +5117,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:objectForm"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "objectForm"
     },
@@ -5131,7 +5131,7 @@ var calculationRules = [
         "calculation_rule": {
             "action": "read_from",
             "target": ["event_body", "ilmd", "rcycle:objectForm"]
-        },
+        }, 
         "rule_no": null,
         "attribute": "objectForm"
     },
@@ -5144,8 +5144,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_length"], ["unit_length_uom"], ["unit_length_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitLength"
@@ -5159,8 +5159,8 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_length"], ["unit_length_uom"], ["unit_length_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitLength"
@@ -5174,8 +5174,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_length"], ["unit_length_uom"], ["unit_length_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitLength"
@@ -5189,8 +5189,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_length"], ["unit_length_uom"], ["unit_length_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitLength"
@@ -5204,8 +5204,8 @@ var calculationRules = [
         "production_step": "Plastic raw material producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_length"], ["unit_length_uom"], ["unit_length_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitLength"
@@ -5219,8 +5219,8 @@ var calculationRules = [
         "production_step": "Waste processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_length"], ["unit_length_uom"], ["unit_length_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_length"],["unit_length_uom"],["unit_length_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitLength"
@@ -5234,8 +5234,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_width"], ["unit_width_uom"], ["unit_width_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitWidth"
@@ -5249,8 +5249,8 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_width"], ["unit_width_uom"], ["unit_width_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitWidth"
@@ -5264,9 +5264,9 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_width"], ["unit_width_uom"], ["unit_width_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
-        },
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
+        }, 
         "rule_no": null,
         "attribute": "unitWidth"
     },
@@ -5279,9 +5279,9 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_width"], ["unit_width_uom"], ["unit_width_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
-        },
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
+        }, 
         "rule_no": null,
         "attribute": "unitWidth"
     },
@@ -5294,9 +5294,9 @@ var calculationRules = [
         "production_step": "Plastic raw material producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_width"], ["unit_width_uom"], ["unit_width_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
-        },
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
+        }, 
         "rule_no": null,
         "attribute": "unitWidth"
     },
@@ -5309,9 +5309,9 @@ var calculationRules = [
         "production_step": "Waste processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_width"], ["unit_width_uom"], ["unit_width_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
-        },
+            "target": [["unit_width"],["unit_width_uom"],["unit_width_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
+        }, 
         "rule_no": null,
         "attribute": "unitWidth"
     },
@@ -5324,8 +5324,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_height"], ["unit_height_uom"], ["unit_height_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitHeight"
@@ -5339,8 +5339,8 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_height"], ["unit_height_uom"], ["unit_height_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitHeight"
@@ -5354,8 +5354,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_height"], ["unit_height_uom"], ["unit_height_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitHeight"
@@ -5369,8 +5369,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_height"], ["unit_height_uom"], ["unit_height_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitHeight"
@@ -5384,8 +5384,8 @@ var calculationRules = [
         "production_step": "Plastic raw material producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_height"], ["unit_height_uom"], ["unit_height_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitHeight"
@@ -5399,8 +5399,8 @@ var calculationRules = [
         "production_step": "Waste processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["unit_height"], ["unit_height_uom"], ["unit_height_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["unit_height"],["unit_height_uom"],["unit_height_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "unitHeight"
@@ -5414,8 +5414,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["filling_volume"], ["filling_volume_uom"], ["filling_volume_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "fillingVolume"
@@ -5429,8 +5429,8 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["filling_volume"], ["filling_volume_uom"], ["filling_volume_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "fillingVolume"
@@ -5444,8 +5444,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["filling_volume"], ["filling_volume_uom"], ["filling_volume_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "fillingVolume"
@@ -5459,8 +5459,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["filling_volume"], ["filling_volume_uom"], ["filling_volume_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "fillingVolume"
@@ -5474,8 +5474,8 @@ var calculationRules = [
         "production_step": "Plastic raw material producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["filling_volume"], ["filling_volume_uom"], ["filling_volume_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "fillingVolume"
@@ -5489,8 +5489,8 @@ var calculationRules = [
         "production_step": "Waste processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["filling_volume"], ["filling_volume_uom"], ["filling_volume_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["filling_volume"],["filling_volume_uom"],["filling_volume_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "fillingVolume"
@@ -5504,8 +5504,8 @@ var calculationRules = [
         "production_step": "Component producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["mfr"], ["mfr_uom"], ["mfr_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "mfr"
@@ -5519,9 +5519,9 @@ var calculationRules = [
         "production_step": "Component processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["mfr"], ["mfr_uom"], ["mfr_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
-        },
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
+        }, 
         "rule_no": null,
         "attribute": "mfr"
     },
@@ -5534,8 +5534,8 @@ var calculationRules = [
         "production_step": "Component reshaping",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["mfr"], ["mfr_uom"], ["mfr_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "mfr"
@@ -5549,8 +5549,8 @@ var calculationRules = [
         "production_step": "Packaging producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["mfr"], ["mfr_uom"], ["mfr_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "mfr"
@@ -5564,8 +5564,8 @@ var calculationRules = [
         "production_step": "Plastic raw material producing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["mfr"], ["mfr_uom"], ["mfr_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "mfr"
@@ -5579,8 +5579,8 @@ var calculationRules = [
         "production_step": "Waste processing",
         "calculation_rule": {
             "action": "read_from_multiple",
-            "target": [["mfr"], ["mfr_uom"], ["mfr_uom_desc"]],
-            "name": [["value"], ["uom"], ["uom_desc"]]
+            "target": [["mfr"],["mfr_uom"],["mfr_uom_desc"]],
+            "name": [["value"],["uom"],["uom_desc"]]
         },
         "rule_no": null,
         "attribute": "mfr"
