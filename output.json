@@ -1042,7 +1042,7 @@
             "lotQuantity": {
                 "value": "1000.00",
                 "uom": null,
-                "uom_desc": null,
+                "uom_desc": "units",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
@@ -1231,7 +1231,7 @@
             "lotQuantity": {
                 "value": "1000.00",
                 "uom": null,
-                "uom_desc": null,
+                "uom_desc": "units",
                 "displayName": "Lot Quantity",
                 "order": 7
             }
