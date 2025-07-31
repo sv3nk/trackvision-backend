@@ -6095,12 +6095,14 @@ function createOutputData() {
         var processType = findProcessType(productionStep);
         var primaryImage = currentElement['primary_image'];
         var share = currentElement['share'];
+        var type = currentElement['type'];
 
         var outputObject = {
             id: currentElement.child_id,
             parent: currentElement.parent_id,
             primaryImage: primaryImage,
             share: share,
+            type: type,
             lotOverview: {
 
             },
